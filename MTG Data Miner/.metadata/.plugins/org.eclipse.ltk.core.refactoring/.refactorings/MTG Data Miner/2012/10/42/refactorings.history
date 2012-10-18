@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;/MTG Data Miner/src/MTG_Card_Detail_Refiner&apos; to &apos;MTG_Card_Detail_Refiner.lua&apos;&#x0D;&#x0A;- Original element: &apos;MTG_Card_Detail_Refiner&apos;" description="Rename resource &apos;MTG_Card_Detail_Refiner&apos;" flags="7" id="org.eclipse.dltk.ui.rename.resource" input="src/MTG_Card_Detail_Refiner" name="MTG_Card_Detail_Refiner.lua" stamp="1350361920077" version="1.0"/>
+</session>

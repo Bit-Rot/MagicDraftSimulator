@@ -1,0 +1,274 @@
+Angel of Serenity
+Armory Guard
+Arrest
+Avenging Arrow
+Azorius Arrester
+Azorius Justiciar
+Bazaar Krovod
+Concordia Pegasus
+Ethereal Armor
+Eyes in the Skies
+Fencing Ace
+Keening Apparition
+Knightly Valor
+Martial Law
+Palisade Giant
+Phantom General
+Precinct Captain
+Rest in Peace
+Rootborn Defenses
+Security Blockade
+Selesnya Sentry
+Seller of Songbirds
+Soul Tithe
+Sphere of Safety
+Sunspire Griffin
+Swift Justice
+Trained Caracal
+Trostani's Judgment
+Aquus Steed
+Blustersquall
+Cancel
+Chronic Flooding
+Conjured Currency
+Crosstown Courier
+Cyclonic Rift
+Dispel
+Doorkeeper
+Downsize
+Faerie Impostor
+Hover Barrier
+Inaction Injunction
+Inspiration
+Isperia's Skywatch
+Jace, Architect of Thought
+Mizzium Skin
+Paralyzing Grasp
+Psychic Spiral
+Runewing
+Search the City
+Skyline Predator
+Soulsworn Spirit
+Sphinx of the Chimes
+Stealer of Secrets
+Syncopate
+Tower Drake
+Voidwielder
+Assassin's Strike
+Catacomb Slug
+Cremate
+Daggerdrome Imp
+Dark Revenant
+Dead Reveler
+Desecration Demon
+Destroy the Evidence
+Deviant Glee
+Drainpipe Vermin
+Grave Betrayal
+Grim Roustabout
+Launch Party
+Mind Rot
+Necropolis Regent
+Ogre Jailbreaker
+Pack Rat
+Perilous Shadow
+Sewer Shambler
+Shrieking Affliction
+Slum Reaper
+Stab Wound
+Tavern Swindler
+Terrus Wurm
+Thrill-Kill Assassin
+Ultimate Price
+Underworld Connections
+Zanikev Locust
+Annihilating Fire
+Ash Zealot
+Batterhorn
+Bellows Lizard
+Bloodfray Giant
+Chaos Imps
+Cobblebrute
+Dynacharge
+Electrickery
+Explosive Impact
+Goblin Rally
+Gore-House Chainwalker
+Guild Feud
+Guttersnipe
+Lobber Crew
+Minotaur Aggressor
+Mizzium Mortars
+Pursuit of Flight
+Pyroconvergence
+Racecourse Fury
+Splatter Thug
+Street Spasm
+Survey the Wreckage
+Tenement Crasher
+Traitorous Instinct
+Utvara Hellkite
+Vandalblast
+Viashino Racketeer
+Aerial Predation
+Archweaver
+Axebane Guardian
+Axebane Stag
+Brushstrider
+Centaur's Herald
+Chorus of Might
+Deadbridge Goliath
+Death's Presence
+Drudge Beetle
+Druid's Deliverance
+Gatecreeper Vine
+Giant Growth
+Gobbling Ooze
+Golgari Decoy
+Horncaller's Chant
+Korozda Monitor
+Mana Bloom
+Oak Street Innkeeper
+Rubbleback Rhino
+Savage Surge
+Seek the Horizon
+Slime Molding
+Stonefare Crocodile
+Towering Indrik
+Urban Burgeoning
+Wild Beastmaster
+Worldspine Wurm
+Abrupt Decay
+Archon of the Triumvirate
+Armada Wurm
+Auger Spree
+Azorius Charm
+Call of the Conclave
+Carnival Hellsteed
+Centaur Healer
+Chemister's Trick
+Collective Blessing
+Common Bond
+Corpsejack Menace
+Counterflux
+Coursers' Accord
+Detention Sphere
+Dramatic Rescue
+Dreadbore
+Dreg Mangler
+Epic Experiment
+Essence Backlash
+Fall of the Gavel
+Firemind's Foresight
+Goblin Electromancer
+Golgari Charm
+Grisly Salvage
+Havoc Festival
+Hellhole Flailer
+Heroes' Reunion
+Hussar Patrol
+Hypersonic Dragon
+Isperia, Supreme Judge
+Izzet Charm
+Izzet Staticaster
+Jarad, Golgari Lich Lord
+Jarad's Orders
+Korozda Guildmage
+Lotleth Troll
+Loxodon Smiter
+Lyev Skyknight
+Mercurial Chemister
+New Prahv Guildmage
+Nivix Guildmage
+Niv-Mizzet, Dracogenius
+Rakdos Charm
+Rakdos Ragemutt
+Rakdos Ringleader
+Rakdos, Lord of Riots
+Rakdos's Return
+Righteous Authority
+Risen Sanctuary
+Rites of Reaping
+Rix Maadi Guildmage
+Search Warrant
+Selesnya Charm
+Skull Rend
+Skymark Roc
+Slaughter Games
+Sluiceway Scorpion
+Spawn of Rix Maadi
+Sphinx's Revelation
+Supreme Verdict
+Teleportal
+Thoughtflare
+Treasured Find
+Trestle Troll
+Trostani, Selesnya's Voice
+Vitu-Ghazi Guildmage
+Vraska the Unseen
+Wayfaring Temple
+Azor's Elocutors
+Blistercoil Weird
+Cryptborn Horror
+Deathrite Shaman
+Dryad Militant
+Frostburn Weird
+Golgari Longlegs
+Growing Ranks
+Judge's Familiar
+Nivmagus Elemental
+Rakdos Cackler
+Rakdos Shred-Freak
+Slitherhead
+Sundering Growth
+Vassal Soul
+Azorius Keyrune
+Chromatic Lantern
+Civic Saber
+Codex Shredder
+Golgari Keyrune
+Izzet Keyrune
+Pithing Needle
+Rakdos Keyrune
+Selesnya Keyrune
+Street Sweeper
+Tablet of the Guilds
+Volatile Rig
+Azorius Guildgate
+Blood Crypt
+Golgari Guildgate
+Grove of the Guardian
+Hallowed Fountain
+Izzet Guildgate
+Overgrown Tomb
+Rakdos Guildgate
+Rogue's Passage
+Selesnya Guildgate
+Steam Vents
+Temple Garden
+Transguild Promenade
+Plains
+Plains
+Plains
+Plains
+Plains
+Island
+Island
+Island
+Island
+Island
+Swamp
+Swamp
+Swamp
+Swamp
+Swamp
+Mountain
+Mountain
+Mountain
+Mountain
+Mountain
+Forest
+Forest
+Forest
+Forest
+Forest

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?>
+<cache:CacheIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cache="http://eclipse.org/dltk/cache_model" lastIndex="28" environment="org.eclipse.dltk.core.environment.localEnvironment">
+  <entries path="D:/Development/Eclipse/BitRotStudios/MTG Data Miner/MTG Data Miner/src/card_info.txt" timestamp="1350180935944" lastAccessTime="1350499859507"/>
+  <entries path="D:/Development/Eclipse/BitRotStudios/MTG Data Miner/MTG Data Miner/src/raw_card_info.txt" timestamp="1350180935938" lastAccessTime="1350499859640"/>
+  <entries path="D:/Development/Eclipse/BitRotStudios/MTG Data Miner/MTG Data Miner/src/debugger.lua" timestamp="1350347854293" lastAccessTime="1350499859507"/>
+  <entries path="D:/Development/Eclipse/BitRotStudios/MTG Data Miner/MTG Data Miner/src/debugintrospection.lua" timestamp="1350347853984" lastAccessTime="1350499859546"/>
+  <entries path="D:/Development/Eclipse/BitRotStudios/MTG Data Miner/MTG Data Miner/src/raw_card_details - Copy.txt" timestamp="1350329592243" lastAccessTime="1350499859639"/>
+  <entries path="D:/Development/Eclipse/BitRotStudios/MTG Data Miner/MTG Data Miner/src" timestamp="1350361920033" lastAccessTime="1350399679672">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/1261121963/17.idx"/>
+  </entries>
+  <entries path="D:/Development/Eclipse/BitRotStudios/MTG Data Miner/MTG Data Miner/src/MTG_Card_Detail_Refiner.lua" timestamp="1350361932878" lastAccessTime="1350499859546">
+    <attributes name="indexed" location="2838196607/1856891193/25.idx"/>
+  </entries>
+  <entries path="D:/Development/Eclipse/BitRotStudios/MTG Data Miner/MTG Data Miner/src/raw_card_details.txt" timestamp="1350358723871" lastAccessTime="1350499859639"/>
+  <entries path="D:/Development/Eclipse/BitRotStudios/MTG Data Miner/MTG Data Miner/src/main.lua" timestamp="1350180232935" lastAccessTime="1350499859640">
+    <attributes name="indexed" location="2838196607/1856891193/27.idx"/>
+  </entries>
+  <entries path="D:/Development/Eclipse/BitRotStudios/MTG Data Miner/MTG Data Miner/src/MTG_Card_Detail_Miner.lua" timestamp="1350399679163" lastAccessTime="1350499859546"/>
+  <entries path="D:/Development/Eclipse/BitRotStudios/MTG Data Miner/MTG Data Miner/src/MTG_Card_Name_Miner.lua" timestamp="1350120115594" lastAccessTime="1350499859639"/>
+</cache:CacheIndex>

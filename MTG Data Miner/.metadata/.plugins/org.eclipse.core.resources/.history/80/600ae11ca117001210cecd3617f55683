@@ -1,0 +1,283 @@
+http = require("socket.http")
+string = require("string")
+
+local initconnection = require("debugger")
+initconnection("127.0.0.1", "10000", "luaidekey")
+
+function url_encode(str)
+  if (str) then
+    str = string.gsub (str, "\n", "\r\n")
+    str = string.gsub (str, "([^%w ])",
+        function (c) return string.format ("%%%02X", string.byte(c)) end)
+    str = string.gsub (str, " ", "+")
+  end
+  return str
+end
+
+function trim(str)
+	return str:match'^%s*(.*%S)' or ''
+end
+
+function getDivTagContents(str, pos)
+	local i = 0
+	local divOpen, divOpenEnd, divClose, divCloseEnd = 0, 0, 0, 0
+	local contentBegin = string.find(str, ">", pos)
+	repeat
+		divOpen, divOpenEnd = string.find(str, "<div", pos)
+		divClose, divCloseEnd = string.find(str, "</div>", pos)
+		
+		if divOpen and divClose and divOpen < divClose then
+			i = i + 1
+			pos = divOpenEnd
+		else
+			i = i - 1
+			pos = divCloseEnd
+		end
+	until i <= 0
+	
+	if contentBegin and i == 0 then
+		return string.sub(str, contentBegin+1, divClose-1), divCloseEnd+1
+	else
+		return nil
+	end
+end
+
+function pullCardInfo(rawCardDetails, cardDetailName, cardDetailKey, cardDetailEntry, pos)
+	-- 
+	local rowOpen = CARD_DETAIL_ROW_PREFIX .. cardDetailName .. CARD_DETAIL_ROW_SUFFIX
+	pos = string.find(rawCardDetails, rowOpen)
+	local contents, newPos = getDivTagContents(rawCardDetails, pos)
+	
+	if contents then
+		pos = string.find(contents, CARD_DETAIL_VALUE_PREFIX)
+		local value = getDivTagContents(contents, pos)
+			
+		if value then
+			cardDetailEntry[cardDetailKey] = value
+		end
+	end
+	
+	return newPos
+end
+
+function refineCardName(name)
+	return trim(name)
+end
+
+function refineCardMana(mana)
+	local manaCost = ""
+	string.gsub(mana, "alt=\"([^\"]*)\"", function(capture)
+		if capture == "White" then
+			manaCost = manaCost .. "{W}"
+		elseif capture == "Black" then
+			manaCost = manaCost .. "{B}"
+		elseif capture == "Blue" then
+			manaCost = manaCost .. "{U}"
+		elseif capture == "Green" then
+			manaCost = manaCost .. "{G}"
+		elseif capture == "Red" then
+			manaCost = manaCost .. "{R}"
+		else -- capture is a number
+			manaCost = manaCost .. capture
+		end
+	end)
+	
+	return manaCost
+end
+
+function refineCardCmc(cmc)
+	return trim(cmc)
+end
+
+--TODO: Pull type and subtype
+function refineCardType(type)
+	return trim(type)
+end
+
+function refineCardText(text)
+	textContents = {}
+	local capture, pos = "", 1
+	repeat
+		capture, pos = getDivTagContents(text, pos)
+		if capture then
+			table.insert(textContents, trim(capture))
+		end
+	until capture == nil
+	
+	return textContents
+end
+
+--TODO: Confirm contents will always be inside a div tag
+function refineCardFlavor(flavor)
+	flavor = string.gsub(flavor, "<i>", "")
+	flavor = string.gsub(flavor, "</i>", "")
+	return refineCardText(text)
+end
+
+function refineCardPt(pt)
+	pt = trim(pt)
+	values = {}
+	string.gsub(pt, "([^/]+)", function(c) table.insert(values, c) end)
+	return values
+end
+
+function refineCardInfo(cardDetailEntry)
+		-- Process card name
+		cardDetailEntry["name"] = refineCardName(cardDetailEntry["name"])
+
+		-- Process mana cost
+		cardDetailEntry["mana"] = refineCardMana(cardDetailEntry["mana"])
+
+		-- Process converted mana cost
+		cardDetailEntry["cmc"] = refineCardCmc(cardDetailEntry["cmc"])
+
+		-- Process type
+		cardDetailEntry["type"] = refineCardType(cardDetailEntry["type"])
+
+		-- Process text
+		cardDetailEntry["text"] = refineCardText(cardDetailEntry["text"])
+
+		-- Process flavor
+		cardDetailEntry["flavor"] = refineCardFlavor(cardDetailEntry["flavor"])
+
+		-- Process power/toughness
+		cardDetailEntry["pt"] = refineCardPt(cardDetailEntry["pt"])
+
+		-- Process current card set
+		cardDetailEntry["set"] = refineCardSet(cardDetailEntry["set"])
+
+		-- Process rarity
+		cardDetailEntry["rarity"] = refineCardRarity(cardDetailEntry["rarity"])
+
+		-- Process card's other sets
+		cardDetailEntry["otherSets"] = refineCardOtherSets(cardDetailEntry["otherSets"])
+
+		-- Process card number
+		cardDetailEntry["number"] = refineCardNumber(cardDetailEntry["number"])
+
+		-- Process artist
+		cardDetailEntry["artist"] = refineCardArtist(cardDetailEntry["artist"])
+end
+
+-- Basic operators
+AND = "+"
+NOT = "+!"
+OR = "|"
+ONLY = "+@"
+
+-- Adv. operators
+COLOR_MULTI_ONLY = "+^"
+
+
+-- Define a bunch of constants
+GATHERER_BASE_URL = "http://gatherer.wizards.com/Pages/Search/Default.aspx?"
+GATHERER_VALUE_SEPARATOR = "&"
+
+-- Define names of known variables
+GATHERER_VAR_PAGE = "page" -- 0 indexed
+GATHERER_VAR_ACTION = "action"
+GATHERER_VAR_CARD_NAME = "name"
+GATHERER_VAR_RULES_TEXT = "text"
+GATEHRER_VAR_EXPANSION = "set"
+GATHERER_VAR_FORMAT = "format"
+GATHERER_VAR_COLOR = "color"
+GATHERER_VAR_TYPE = "type"
+GATHERER_VAR_SUBTYPE = "subtype"
+
+-- Define known values for the variable "action"
+GATHERER_ACTION_ADVANCED = "advanced"
+
+-- Define known values for the variable "set"
+GATHERER_EXPANSION_RTR = "%5B\"Return%20to%20Ravnica\"%5D"
+
+-- Define known number of pages for given sets/searches
+GATHERER_PAGES_RTR = 10
+
+-- Define structural elements to use when mining data from the card list page
+LIST_CARD_TITLE_OPEN = "<span class=\"cardTitle\">"
+LIST_CARD_TITLE_CLOSE = "</span>"
+LIST_CARD_NAME_OPEN = ">"
+LIST_CARD_NAME_CLOSE = "</a>"
+
+-- Define structural elements to use when mining data from the card detail page
+CARD_DETAIL_ROW_PREFIX = "<div id=\"ctl00_ctl00_ctl00_MainContent_SubContent_SubContent_"
+CARD_DETAIL_ROW_SUFFIX = "\" class=\"row\">"
+CARD_DETAIL_VALUE_PREFIX = "<div class=\"value\">"
+CARD_DETAIL_NAME = "nameRow"
+CARD_DETAIL_MANA = "manaRow"
+CARD_DETAIL_CMC = "cmcRow"
+CARD_DETAIL_TYPE = "typeRow"
+CARD_DETAIL_TEXT = "textRow"
+CARD_DETAIL_FLAVOR = "flavorRow"
+CARD_DETAIL_PT = "ptRow"
+CARD_DETAIL_SET = "setRow"
+CARD_DETAIL_RARITY = "rarityRow"
+CARD_DETAIL_OTHERSETS = "otherSetsRow"
+CARD_DETAIL_NUMBER = "numberRow"
+CARD_DETAIL_ARTIST = "artistRow"
+
+-- Constants
+CARD_NAME_FILE = "card_info.txt"
+RAW_CARD_DETAIL_FILE = "raw_card_details.txt"
+CARD_DETAIL_FILE = "card_details.txt"
+
+-- Assemble list of names into table
+local file_in = io.open(CARD_NAME_FILE, "r")
+local cardNamesContents = file_in:read("*a")
+local cardNames = {}
+string.gsub(cardNamesContents, "([^%c]+)", function(c) table.insert(cardNames, c); return "" end)
+
+--[[
+//////////////// TODO: INSERT PRE-XML HERE ///////////////////////
+--]]
+
+-- Start building card details from card names
+local cardEntryArray = {}
+for i=1, table.getn(cardNames) do
+
+	-- Set output file for raw output
+	local file_out = io.open(RAW_CARD_DETAIL_FILE, "w")
+
+	-- Build the request url
+	local encodedCardName = url_encode(cardNames[i])
+	local requestUrl = GATHERER_BASE_URL ..
+		GATHERER_VAR_ACTION .. "=" .. GATHERER_ACTION_ADVANCED .. "&" ..
+		GATHERER_VAR_CARD_NAME .. "=" .. AND .. "[\"" .. encodedCardName .. "\"]"
+
+	io.write("Requesting card info: " .. requestUrl .. "\n")
+
+	-- Pull the raw html card details
+	local body = http.request{
+		url = requestUrl,
+		sink = ltn12.sink.file(file_out)}
+
+	-- Read in raw html list and swap output to new file
+	file_in = io.open(RAW_CARD_DETAIL_FILE, "r")
+	local rawCardDetails = file_in:read("*a")
+
+	-- Pull Card Details
+	local cardDetailEntry = {}
+	local pos = 1
+	pos = pullCardInfo(rawCardDetails, CARD_DETAIL_NAME, "name", cardDetailEntry, pos)
+	pos = pullCardInfo(rawCardDetails, CARD_DETAIL_MANA, "mana", cardDetailEntry, pos)
+	pos = pullCardInfo(rawCardDetails, CARD_DETAIL_CMC, "cmc", cardDetailEntry, pos)
+	pos = pullCardInfo(rawCardDetails, CARD_DETAIL_TYPE, "type", cardDetailEntry, pos)
+	pos = pullCardInfo(rawCardDetails, CARD_DETAIL_TEXT, "text", cardDetailEntry, pos)
+	pos = pullCardInfo(rawCardDetails, CARD_DETAIL_FLAVOR, "flavor", cardDetailEntry, pos)
+	pos = pullCardInfo(rawCardDetails, CARD_DETAIL_PT, "pt", cardDetailEntry, pos)
+	pos = pullCardInfo(rawCardDetails, CARD_DETAIL_SET, "set", cardDetailEntry, pos)
+	pos = pullCardInfo(rawCardDetails, CARD_DETAIL_RARITY, "rarity", cardDetailEntry, pos)
+	pos = pullCardInfo(rawCardDetails, CARD_DETAIL_OTHERSETS, "otherSets", cardDetailEntry, pos)
+	pos = pullCardInfo(rawCardDetails, CARD_DETAIL_NUMBER, "number", cardDetailEntry, pos)
+	pos = pullCardInfo(rawCardDetails, CARD_DETAIL_ARTIST, "artist", cardDetailEntry, pos)
+	
+	-- Refine card details
+	table.insert(cardEntryArray, refineCardDetails(cardDetailEntry))
+	
+	-- Print XML of card info
+end
+
+
+--[[
+//////////////// TODO: INSERT POST-XML HERE ///////////////////////
+--]]

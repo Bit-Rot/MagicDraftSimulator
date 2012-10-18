@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.koneki.ldt.debug.core.luaattachdebug">
+<stringAttribute key="dbgp_session_id" value="luaidekey"/>
+<intAttribute key="dbpg_waiting_timeout" value="30000"/>
+<booleanAttribute key="enableBreakOnFirstLine" value="true"/>
+<booleanAttribute key="enableDbgpLogging" value="false"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/MTG Data Miner"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<stringAttribute key="project" value="MTG Data Miner"/>
+<stringAttribute key="remoteWorkingDir" value=""/>
+<stringAttribute key="source_mapping_type" value="local"/>
+</launchConfiguration>

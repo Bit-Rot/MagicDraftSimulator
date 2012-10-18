@@ -1,0 +1,3219 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
+  <title>Return to Ravnica</title>
+  <style type="text/css">
+   <!--
+    body {background: #fafafa url(http://magiccards.info/images/bg.gif) repeat-x;margin: 1em 1.5em;}
+    body,td,th {font: 0.9em/1.2em Verdana;color: #444;}
+    th {text-align: left; font-weight: bold;}
+    p {margin: 0.5em 0;}
+    a {color: #4666BC;}
+    a:hover {color: #333;background-color: #ff0;}
+    a:active {text-decoration: none;}
+    a:visited {color: #283C71;}
+    li.legal {color: #216728;}
+    li.restricted {color: #B98420;}
+    li.banned {color: #672121;}
+    li.reserve {color: #4F55CC;}
+    p.ctext {background-color: #fff;padding: 4px;}
+    p.otext {background-color: #fff;padding: 4px;}
+    div.oo {margin-left: 0em; padding: 0.5em 0 0 0; border: 1px solid #bbb; font-size: 75%;line-height: 100%;}
+    div.oo span {padding: 4px;}
+    div.oo p {margin: 0.5em 0 0 0;}
+    tr.odd {background-color: #e0e0e0;}
+    tr.even {background-color: #fafafa;}
+    #searchhelper td {line-height: 150%;vertical-align: middle;border-bottom: 1px dotted #999; padding: 5px 5px 5px 0;}
+    #searchhelper label {font-weight: bold;}
+    #searchhelper label.sl {font-weight: normal;}
+    #searchhelper table td {border: none; padding: 0; font-size: 1em;}
+    span.missing {color: #aaa;font-weight:bold;font-style:italic;}
+    dt {font-weight: bold; font-size: 110%; margin: 1em 0 0.5em 0;}
+    table#nav {font-size: 90%;}
+    ul {padding-left: 2em;}
+    .flag {vertical-align:-10%;}
+    .flag2 {vertical-align:-20%;}
+    .addition {color: red;}
+    a.ruleanchor {text-decoration: none; color: #E8DA58;}
+    li:target {background: #FAF7DC;}
+    -->
+  </style>
+  <script type="text/javascript">
+    <!--
+    function preventFocus() { isTop = false; }
+    function focusForm()    { if (isTop && document.f) { document.f.q.select(); } }
+    var isTop       = true;
+    window.onscroll = preventFocus;
+    window.onload   = focusForm;
+    // -->
+  </script>
+  <link rel="search" type="application/opensearchdescription+xml" title="MagicCards.Info" href="/opensearch.xml">
+</head>
+<body>
+<table width="100%" cellpadding="0" cellspacing="0" id="nav">
+    <tr>
+        <td>
+            <img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2">
+             <a href="/">Home</a>, 
+             <a href="/random.html">Random</a>, 
+             <a href="/art.html">Art Game</a>, 
+             <a href="/search.html"><b>Advanced</b></a>, 
+             <a href="/extras.html">Extras</a>, 
+             <a href="/rules.html">Rules</a>, 
+             <a href="/about.html">About</a>. 
+        </td>
+        <td align="right">
+            Sets: 
+            <a href="/rtr/en.html">Return to Ravnica</a> <small class="addition">(new)</small>, <a href="/avr/en.html">Avacyn Restored</a>, <a href="/m13/en.html">Magic 2013</a>, <a href="/pd3/en.html">Graveborn</a>
+            &gt; <a href="/sitemap.html"><b>All Sets</b></a>
+        </td>
+    </tr>
+</table>
+<hr>
+
+<form method="GET" action="/query" style="font-size: 1.5em;" name="f">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" align="center">
+  <tr>
+    <td nowrap="nowrap">
+        <label for="q">Query:</label> 
+        <input type="text" name="q" id="q" size="30" value="++e:rtr&#x2F;en" style="font-size: 1em;" tabindex="1">
+        
+    </td>
+    <td align="right">
+      <select name="v" onchange="this.form.submit();">
+        <optgroup label="Select Output Format:">
+          
+          <option value="card">View as Cards with Scans</option>
+          <option value="olist">View as a List (Oracle)</option>
+          <option value="list" selected="selected">View as Checklist</option>
+          <option value="scan">View as Scans only</option>
+          <option value="spoiler">View as a Spoiler</option>
+        </optgroup>
+      </select>
+      <select name="s" onchange="this.form.submit();">
+        <optgroup label="Select Sort Order:">
+          
+          <option value="cname">Sort by Name &gt; Edition</option>
+          <option value="color">Sort by Color &gt; Name</option>
+          <option value="otype">Sort by Type &gt; Name</option>
+          <option value="cmc">Sort by Converted Mana Cost &gt; Name</option>
+          <option value="pow">Sort by Power &gt; Name</option>
+          <option value="tou">Sort by Toughness &gt; Name</option>
+          <option value="random">Sort by Random</option>
+          <option value="edition">Sort by Edition &gt; Name</option>
+          <option value="issue" selected="selected">Sort by Edition &gt; Collector's Number</option>
+        </optgroup>
+      </select>
+      <input type="submit" value="Search">
+    </td>
+  </tr>
+</table>
+</form>
+<hr>
+
+<h1>Return to Ravnica <small style="color: #aaa;">rtr/en</small></h1>
+<img src="http://magiccards.info/images/de.gif" alt="Deutsch" width="16" height="11" class="flag">&nbsp;<a href="/rtr/de.html">Rückkehr nach Ravnica</a>&nbsp;&nbsp;
+<img src="http://magiccards.info/images/fr.gif" alt="Français" width="16" height="11" class="flag">&nbsp;<a href="/rtr/fr.html">Retour sur Ravnica</a>&nbsp;&nbsp;
+<img src="http://magiccards.info/images/it.gif" alt="Italiano" width="16" height="11" class="flag">&nbsp;<a href="/rtr/it.html">Ritorno a Ravnica</a>&nbsp;&nbsp;
+<img src="http://magiccards.info/images/es.gif" alt="Español" width="16" height="11" class="flag">&nbsp;<a href="/rtr/es.html">Regreso a Rávnica</a>&nbsp;&nbsp;
+<img src="http://magiccards.info/images/pt.gif" alt="Português" width="16" height="11" class="flag">&nbsp;<a href="/rtr/pt.html">Retorno a Ravnica</a>&nbsp;&nbsp;
+<img src="http://magiccards.info/images/jp.gif" alt="日本語" width="16" height="11" class="flag">&nbsp;<a href="/rtr/jp.html">ラヴニカへの回帰</a>&nbsp;&nbsp;
+<br><img src="http://magiccards.info/images/cn.gif" alt="简体中文" width="16" height="11" class="flag">&nbsp;<a href="/rtr/cn.html">再访拉尼卡</a>&nbsp;&nbsp;
+<img src="http://magiccards.info/images/ru.gif" alt="Русский" width="16" height="11" class="flag">&nbsp;<a href="/rtr/ru.html">Возвращение в Равнику</a>&nbsp;&nbsp;
+<img src="http://magiccards.info/images/tw.gif" alt="繁體中文" width="16" height="11" class="flag">&nbsp;<a href="/rtr/tw.html">再訪拉尼卡</a>&nbsp;&nbsp;
+<img src="http://magiccards.info/images/ko.gif" alt="한국어" width="16" height="11" class="flag">&nbsp;<a href="/rtr/ko.html">라브니카로의 귀환</a>&nbsp;&nbsp;
+
+<hr>
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td width="25%">
+      
+    </td>
+    <td width="50%" align="center">
+      <b>[ 1-274 ]</b> 
+    </td>
+    <td width="25%" align="right">
+      274 cards
+    </td>
+  </tr>
+</table>
+<hr>
+
+
+<table cellpadding="3" cellspacing="0" width="100%">
+  <tr>
+    <th align="right" width="30"><b>&#8470;</b></th>
+    <th><b>Card name</b></th>
+    <th><b>Type</b></th>
+    <th><b>Mana</b></th>
+    <th><b>Rarity</b></th>
+    <th><b>Artist</b></th>
+    <th><b>Edition</b></th>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">1</td>
+    <td><a href="/rtr/en/1.html">Angel of Serenity</a></td>
+    <td>Creature — Angel 5/6</td>
+    <td>4WWW</td>
+    <td>Mythic Rare</td>
+    <td>Aleksi Briclot</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">2</td>
+    <td><a href="/rtr/en/2.html">Armory Guard</a></td>
+    <td>Creature — Giant Soldier 2/5</td>
+    <td>3W</td>
+    <td>Common</td>
+    <td>Karl Kopinski</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">3</td>
+    <td><a href="/rtr/en/3.html">Arrest</a></td>
+    <td>Enchantment — Aura</td>
+    <td>2W</td>
+    <td>Uncommon</td>
+    <td>Greg Staples</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">4</td>
+    <td><a href="/rtr/en/4.html">Avenging Arrow</a></td>
+    <td>Instant</td>
+    <td>2W</td>
+    <td>Common</td>
+    <td>James Ryman</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">5</td>
+    <td><a href="/rtr/en/5.html">Azorius Arrester</a></td>
+    <td>Creature — Human Soldier 2/1</td>
+    <td>1W</td>
+    <td>Common</td>
+    <td>Wayne Reynolds</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">6</td>
+    <td><a href="/rtr/en/6.html">Azorius Justiciar</a></td>
+    <td>Creature — Human Wizard 2/2</td>
+    <td>2WW</td>
+    <td>Uncommon</td>
+    <td>Chris Rahn</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">7</td>
+    <td><a href="/rtr/en/7.html">Bazaar Krovod</a></td>
+    <td>Creature — Beast 2/5</td>
+    <td>4W</td>
+    <td>Uncommon</td>
+    <td>Lars Grant-West</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">8</td>
+    <td><a href="/rtr/en/8.html">Concordia Pegasus</a></td>
+    <td>Creature — Pegasus 1/3</td>
+    <td>1W</td>
+    <td>Common</td>
+    <td>Winona Nelson</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">9</td>
+    <td><a href="/rtr/en/9.html">Ethereal Armor</a></td>
+    <td>Enchantment — Aura</td>
+    <td>W</td>
+    <td>Common</td>
+    <td>Daarken</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">10</td>
+    <td><a href="/rtr/en/10.html">Eyes in the Skies</a></td>
+    <td>Instant</td>
+    <td>3W</td>
+    <td>Common</td>
+    <td>James Ryman</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">11</td>
+    <td><a href="/rtr/en/11.html">Fencing Ace</a></td>
+    <td>Creature — Human Soldier 1/1</td>
+    <td>1W</td>
+    <td>Uncommon</td>
+    <td>David Rapoza</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">12</td>
+    <td><a href="/rtr/en/12.html">Keening Apparition</a></td>
+    <td>Creature — Spirit 2/2</td>
+    <td>1W</td>
+    <td>Common</td>
+    <td>Terese Nielsen</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">13</td>
+    <td><a href="/rtr/en/13.html">Knightly Valor</a></td>
+    <td>Enchantment — Aura</td>
+    <td>4W</td>
+    <td>Common</td>
+    <td>Matt Stewart</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">14</td>
+    <td><a href="/rtr/en/14.html">Martial Law</a></td>
+    <td>Enchantment</td>
+    <td>2WW</td>
+    <td>Rare</td>
+    <td>Tyler Jacobson</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">15</td>
+    <td><a href="/rtr/en/15.html">Palisade Giant</a></td>
+    <td>Creature — Giant Soldier 2/7</td>
+    <td>4WW</td>
+    <td>Rare</td>
+    <td>Greg Staples</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">16</td>
+    <td><a href="/rtr/en/16.html">Phantom General</a></td>
+    <td>Creature — Spirit Soldier 2/3</td>
+    <td>3W</td>
+    <td>Uncommon</td>
+    <td>Christopher Moeller</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">17</td>
+    <td><a href="/rtr/en/17.html">Precinct Captain</a></td>
+    <td>Creature — Human Soldier 2/2</td>
+    <td>WW</td>
+    <td>Rare</td>
+    <td>Steve Prescott</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">18</td>
+    <td><a href="/rtr/en/18.html">Rest in Peace</a></td>
+    <td>Enchantment</td>
+    <td>1W</td>
+    <td>Rare</td>
+    <td>Terese Nielsen</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">19</td>
+    <td><a href="/rtr/en/19.html">Rootborn Defenses</a></td>
+    <td>Instant</td>
+    <td>2W</td>
+    <td>Common</td>
+    <td>Mark Zug</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">20</td>
+    <td><a href="/rtr/en/20.html">Security Blockade</a></td>
+    <td>Enchantment — Aura</td>
+    <td>2W</td>
+    <td>Uncommon</td>
+    <td>James Ryman</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">21</td>
+    <td><a href="/rtr/en/21.html">Selesnya Sentry</a></td>
+    <td>Creature — Elephant Soldier 3/2</td>
+    <td>2W</td>
+    <td>Common</td>
+    <td>Wesley Burt</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">22</td>
+    <td><a href="/rtr/en/22.html">Seller of Songbirds</a></td>
+    <td>Creature — Human 1/2</td>
+    <td>2W</td>
+    <td>Common</td>
+    <td>Christopher Moeller</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">23</td>
+    <td><a href="/rtr/en/23.html">Soul Tithe</a></td>
+    <td>Enchantment — Aura</td>
+    <td>1W</td>
+    <td>Uncommon</td>
+    <td>Dave Kendall</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">24</td>
+    <td><a href="/rtr/en/24.html">Sphere of Safety</a></td>
+    <td>Enchantment</td>
+    <td>4W</td>
+    <td>Uncommon</td>
+    <td>Slawomir Maniak</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">25</td>
+    <td><a href="/rtr/en/25.html">Sunspire Griffin</a></td>
+    <td>Creature — Griffin 2/3</td>
+    <td>1WW</td>
+    <td>Common</td>
+    <td>Johannes Voss</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">26</td>
+    <td><a href="/rtr/en/26.html">Swift Justice</a></td>
+    <td>Instant</td>
+    <td>W</td>
+    <td>Common</td>
+    <td>Karl Kopinski</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">27</td>
+    <td><a href="/rtr/en/27.html">Trained Caracal</a></td>
+    <td>Creature — Cat 1/1</td>
+    <td>W</td>
+    <td>Common</td>
+    <td>James Ryman</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">28</td>
+    <td><a href="/rtr/en/28.html">Trostani's Judgment</a></td>
+    <td>Instant</td>
+    <td>5W</td>
+    <td>Common</td>
+    <td>Christopher Moeller</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">29</td>
+    <td><a href="/rtr/en/29.html">Aquus Steed</a></td>
+    <td>Creature — Beast 1/3</td>
+    <td>3U</td>
+    <td>Uncommon</td>
+    <td>Warren Mahy</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">30</td>
+    <td><a href="/rtr/en/30.html">Blustersquall</a></td>
+    <td>Instant</td>
+    <td>U</td>
+    <td>Uncommon</td>
+    <td>Willian Murai</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">31</td>
+    <td><a href="/rtr/en/31.html">Cancel</a></td>
+    <td>Instant</td>
+    <td>1UU</td>
+    <td>Common</td>
+    <td>Karl Kopinski</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">32</td>
+    <td><a href="/rtr/en/32.html">Chronic Flooding</a></td>
+    <td>Enchantment — Aura</td>
+    <td>1U</td>
+    <td>Common</td>
+    <td>Scott Chou</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">33</td>
+    <td><a href="/rtr/en/33.html">Conjured Currency</a></td>
+    <td>Enchantment</td>
+    <td>5U</td>
+    <td>Rare</td>
+    <td>Steve Argyle</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">34</td>
+    <td><a href="/rtr/en/34.html">Crosstown Courier</a></td>
+    <td>Creature — Vedalken 2/1</td>
+    <td>1U</td>
+    <td>Common</td>
+    <td>Chase Stone</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">35</td>
+    <td><a href="/rtr/en/35.html">Cyclonic Rift</a></td>
+    <td>Instant</td>
+    <td>1U</td>
+    <td>Rare</td>
+    <td>Chris Rahn</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">36</td>
+    <td><a href="/rtr/en/36.html">Dispel</a></td>
+    <td>Instant</td>
+    <td>U</td>
+    <td>Common</td>
+    <td>Chase Stone</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">37</td>
+    <td><a href="/rtr/en/37.html">Doorkeeper</a></td>
+    <td>Creature — Homunculus 0/4</td>
+    <td>1U</td>
+    <td>Common</td>
+    <td>Kev Walker</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">38</td>
+    <td><a href="/rtr/en/38.html">Downsize</a></td>
+    <td>Instant</td>
+    <td>U</td>
+    <td>Common</td>
+    <td>Ryan Pancoast</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">39</td>
+    <td><a href="/rtr/en/39.html">Faerie Impostor</a></td>
+    <td>Creature — Faerie Rogue 2/1</td>
+    <td>U</td>
+    <td>Uncommon</td>
+    <td>Johann Bodin</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">40</td>
+    <td><a href="/rtr/en/40.html">Hover Barrier</a></td>
+    <td>Creature — Illusion Wall 0/6</td>
+    <td>2U</td>
+    <td>Uncommon</td>
+    <td>Mathias Kollros</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">41</td>
+    <td><a href="/rtr/en/41.html">Inaction Injunction</a></td>
+    <td>Sorcery</td>
+    <td>1U</td>
+    <td>Common</td>
+    <td>Wayne Reynolds</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">42</td>
+    <td><a href="/rtr/en/42.html">Inspiration</a></td>
+    <td>Instant</td>
+    <td>3U</td>
+    <td>Common</td>
+    <td>Izzy</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">43</td>
+    <td><a href="/rtr/en/43.html">Isperia's Skywatch</a></td>
+    <td>Creature — Vedalken Knight 3/3</td>
+    <td>5U</td>
+    <td>Common</td>
+    <td>Chris Rahn</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">44</td>
+    <td><a href="/rtr/en/44.html">Jace, Architect of Thought</a></td>
+    <td>Planeswalker — Jace (Loyalty: 4)</td>
+    <td>2UU</td>
+    <td>Mythic Rare</td>
+    <td>Jaime Jones</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">45</td>
+    <td><a href="/rtr/en/45.html">Mizzium Skin</a></td>
+    <td>Instant</td>
+    <td>U</td>
+    <td>Common</td>
+    <td>Scott Chou</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">46</td>
+    <td><a href="/rtr/en/46.html">Paralyzing Grasp</a></td>
+    <td>Enchantment — Aura</td>
+    <td>2U</td>
+    <td>Common</td>
+    <td>Scott Chou</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">47</td>
+    <td><a href="/rtr/en/47.html">Psychic Spiral</a></td>
+    <td>Instant</td>
+    <td>4U</td>
+    <td>Uncommon</td>
+    <td>Ryan Pancoast</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">48</td>
+    <td><a href="/rtr/en/48.html">Runewing</a></td>
+    <td>Creature — Bird 2/2</td>
+    <td>3U</td>
+    <td>Common</td>
+    <td>Martina Pilcerova</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">49</td>
+    <td><a href="/rtr/en/49.html">Search the City</a></td>
+    <td>Enchantment</td>
+    <td>4U</td>
+    <td>Rare</td>
+    <td>Jack Wang</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">50</td>
+    <td><a href="/rtr/en/50.html">Skyline Predator</a></td>
+    <td>Creature — Drake 3/4</td>
+    <td>4UU</td>
+    <td>Uncommon</td>
+    <td>Wesley Burt</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">51</td>
+    <td><a href="/rtr/en/51.html">Soulsworn Spirit</a></td>
+    <td>Creature — Spirit 2/1</td>
+    <td>3U</td>
+    <td>Uncommon</td>
+    <td>James Ryman</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">52</td>
+    <td><a href="/rtr/en/52.html">Sphinx of the Chimes</a></td>
+    <td>Creature — Sphinx 5/6</td>
+    <td>4UU</td>
+    <td>Rare</td>
+    <td>Greg Staples</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">53</td>
+    <td><a href="/rtr/en/53.html">Stealer of Secrets</a></td>
+    <td>Creature — Human Rogue 2/2</td>
+    <td>2U</td>
+    <td>Common</td>
+    <td>Michael C. Hayes</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">54</td>
+    <td><a href="/rtr/en/54.html">Syncopate</a></td>
+    <td>Instant</td>
+    <td>XU</td>
+    <td>Uncommon</td>
+    <td>Clint Cearley</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">55</td>
+    <td><a href="/rtr/en/55.html">Tower Drake</a></td>
+    <td>Creature — Drake 2/1</td>
+    <td>2U</td>
+    <td>Common</td>
+    <td>Ryan Barger</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">56</td>
+    <td><a href="/rtr/en/56.html">Voidwielder</a></td>
+    <td>Creature — Human Wizard 1/4</td>
+    <td>4U</td>
+    <td>Common</td>
+    <td>Chase Stone</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">57</td>
+    <td><a href="/rtr/en/57.html">Assassin's Strike</a></td>
+    <td>Sorcery</td>
+    <td>4BB</td>
+    <td>Uncommon</td>
+    <td>Chase Stone</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">58</td>
+    <td><a href="/rtr/en/58.html">Catacomb Slug</a></td>
+    <td>Creature — Slug 2/6</td>
+    <td>4B</td>
+    <td>Common</td>
+    <td>Nils Hamm</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">59</td>
+    <td><a href="/rtr/en/59.html">Cremate</a></td>
+    <td>Instant</td>
+    <td>B</td>
+    <td>Common</td>
+    <td>Cynthia Sheppard</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">60</td>
+    <td><a href="/rtr/en/60.html">Daggerdrome Imp</a></td>
+    <td>Creature — Imp 1/1</td>
+    <td>1B</td>
+    <td>Common</td>
+    <td>Jack Wang</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">61</td>
+    <td><a href="/rtr/en/61.html">Dark Revenant</a></td>
+    <td>Creature — Spirit 2/2</td>
+    <td>3B</td>
+    <td>Uncommon</td>
+    <td>Daarken</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">62</td>
+    <td><a href="/rtr/en/62.html">Dead Reveler</a></td>
+    <td>Creature — Zombie 2/3</td>
+    <td>2B</td>
+    <td>Common</td>
+    <td>David Palumbo</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">63</td>
+    <td><a href="/rtr/en/63.html">Desecration Demon</a></td>
+    <td>Creature — Demon 6/6</td>
+    <td>2BB</td>
+    <td>Rare</td>
+    <td>Jason Chan</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">64</td>
+    <td><a href="/rtr/en/64.html">Destroy the Evidence</a></td>
+    <td>Sorcery</td>
+    <td>4B</td>
+    <td>Common</td>
+    <td>Clint Cearley</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">65</td>
+    <td><a href="/rtr/en/65.html">Deviant Glee</a></td>
+    <td>Enchantment — Aura</td>
+    <td>B</td>
+    <td>Common</td>
+    <td>Michael C. Hayes</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">66</td>
+    <td><a href="/rtr/en/66.html">Drainpipe Vermin</a></td>
+    <td>Creature — Rat 1/1</td>
+    <td>B</td>
+    <td>Common</td>
+    <td>Trevor Claxton</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">67</td>
+    <td><a href="/rtr/en/67.html">Grave Betrayal</a></td>
+    <td>Enchantment</td>
+    <td>5BB</td>
+    <td>Rare</td>
+    <td>Lucas Graciano</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">68</td>
+    <td><a href="/rtr/en/68.html">Grim Roustabout</a></td>
+    <td>Creature — Skeleton Warrior 1/1</td>
+    <td>1B</td>
+    <td>Common</td>
+    <td>Steven Belledin</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">69</td>
+    <td><a href="/rtr/en/69.html">Launch Party</a></td>
+    <td>Instant</td>
+    <td>3B</td>
+    <td>Common</td>
+    <td>Lucas Graciano</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">70</td>
+    <td><a href="/rtr/en/70.html">Mind Rot</a></td>
+    <td>Sorcery</td>
+    <td>2B</td>
+    <td>Common</td>
+    <td>Yeong-Hao Han</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">71</td>
+    <td><a href="/rtr/en/71.html">Necropolis Regent</a></td>
+    <td>Creature — Vampire 6/5</td>
+    <td>3BBB</td>
+    <td>Mythic Rare</td>
+    <td>Winona Nelson</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">72</td>
+    <td><a href="/rtr/en/72.html">Ogre Jailbreaker</a></td>
+    <td>Creature — Ogre Rogue 4/4</td>
+    <td>3B</td>
+    <td>Common</td>
+    <td>Karl Kopinski</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">73</td>
+    <td><a href="/rtr/en/73.html">Pack Rat</a></td>
+    <td>Creature — Rat */*</td>
+    <td>1B</td>
+    <td>Rare</td>
+    <td>Kev Walker</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">74</td>
+    <td><a href="/rtr/en/74.html">Perilous Shadow</a></td>
+    <td>Creature — Insect Shade 0/4</td>
+    <td>2BB</td>
+    <td>Common</td>
+    <td>Clint Cearley</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">75</td>
+    <td><a href="/rtr/en/75.html">Sewer Shambler</a></td>
+    <td>Creature — Zombie 2/1</td>
+    <td>2B</td>
+    <td>Common</td>
+    <td>Nils Hamm</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">76</td>
+    <td><a href="/rtr/en/76.html">Shrieking Affliction</a></td>
+    <td>Enchantment</td>
+    <td>B</td>
+    <td>Uncommon</td>
+    <td>Johann Bodin</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">77</td>
+    <td><a href="/rtr/en/77.html">Slum Reaper</a></td>
+    <td>Creature — Horror 4/2</td>
+    <td>3B</td>
+    <td>Uncommon</td>
+    <td>Karl Kopinski</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">78</td>
+    <td><a href="/rtr/en/78.html">Stab Wound</a></td>
+    <td>Enchantment — Aura</td>
+    <td>2B</td>
+    <td>Common</td>
+    <td>Scott Chou</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">79</td>
+    <td><a href="/rtr/en/79.html">Tavern Swindler</a></td>
+    <td>Creature — Human Rogue 2/2</td>
+    <td>1B</td>
+    <td>Uncommon</td>
+    <td>Cynthia Sheppard</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">80</td>
+    <td><a href="/rtr/en/80.html">Terrus Wurm</a></td>
+    <td>Creature — Zombie Wurm 5/5</td>
+    <td>6B</td>
+    <td>Common</td>
+    <td>Cliff Childs</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">81</td>
+    <td><a href="/rtr/en/81.html">Thrill-Kill Assassin</a></td>
+    <td>Creature — Human Assassin 1/2</td>
+    <td>1B</td>
+    <td>Uncommon</td>
+    <td>Tyler Jacobson</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">82</td>
+    <td><a href="/rtr/en/82.html">Ultimate Price</a></td>
+    <td>Instant</td>
+    <td>1B</td>
+    <td>Uncommon</td>
+    <td>Karl Kopinski</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">83</td>
+    <td><a href="/rtr/en/83.html">Underworld Connections</a></td>
+    <td>Enchantment — Aura</td>
+    <td>1BB</td>
+    <td>Rare</td>
+    <td>Yeong-Hao Han</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">84</td>
+    <td><a href="/rtr/en/84.html">Zanikev Locust</a></td>
+    <td>Creature — Insect 3/3</td>
+    <td>5B</td>
+    <td>Uncommon</td>
+    <td>Cliff Childs</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">85</td>
+    <td><a href="/rtr/en/85.html">Annihilating Fire</a></td>
+    <td>Instant</td>
+    <td>1RR</td>
+    <td>Common</td>
+    <td>Clint Cearley</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">86</td>
+    <td><a href="/rtr/en/86.html">Ash Zealot</a></td>
+    <td>Creature — Human Warrior 2/2</td>
+    <td>RR</td>
+    <td>Rare</td>
+    <td>Eric Deschamps</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">87</td>
+    <td><a href="/rtr/en/87.html">Batterhorn</a></td>
+    <td>Creature — Beast 4/3</td>
+    <td>4R</td>
+    <td>Common</td>
+    <td>Dave Kendall</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">88</td>
+    <td><a href="/rtr/en/88.html">Bellows Lizard</a></td>
+    <td>Creature — Lizard 1/1</td>
+    <td>R</td>
+    <td>Common</td>
+    <td>Jack Wang</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">89</td>
+    <td><a href="/rtr/en/89.html">Bloodfray Giant</a></td>
+    <td>Creature — Giant 4/3</td>
+    <td>2RR</td>
+    <td>Uncommon</td>
+    <td>Steve Argyle</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">90</td>
+    <td><a href="/rtr/en/90.html">Chaos Imps</a></td>
+    <td>Creature — Imp 6/5</td>
+    <td>4RR</td>
+    <td>Rare</td>
+    <td>Tyler Jacobson</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">91</td>
+    <td><a href="/rtr/en/91.html">Cobblebrute</a></td>
+    <td>Creature — Elemental 5/2</td>
+    <td>3R</td>
+    <td>Common</td>
+    <td>Eytan Zana</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">92</td>
+    <td><a href="/rtr/en/92.html">Dynacharge</a></td>
+    <td>Instant</td>
+    <td>R</td>
+    <td>Common</td>
+    <td>Matt Stewart</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">93</td>
+    <td><a href="/rtr/en/93.html">Electrickery</a></td>
+    <td>Instant</td>
+    <td>R</td>
+    <td>Common</td>
+    <td>Greg Staples</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">94</td>
+    <td><a href="/rtr/en/94.html">Explosive Impact</a></td>
+    <td>Instant</td>
+    <td>5R</td>
+    <td>Common</td>
+    <td>Steve Argyle</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">95</td>
+    <td><a href="/rtr/en/95.html">Goblin Rally</a></td>
+    <td>Sorcery</td>
+    <td>3RR</td>
+    <td>Uncommon</td>
+    <td>Nic Klein</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">96</td>
+    <td><a href="/rtr/en/96.html">Gore-House Chainwalker</a></td>
+    <td>Creature — Human Warrior 2/1</td>
+    <td>1R</td>
+    <td>Common</td>
+    <td>Dan Scott</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">97</td>
+    <td><a href="/rtr/en/97.html">Guild Feud</a></td>
+    <td>Enchantment</td>
+    <td>5R</td>
+    <td>Rare</td>
+    <td>Karl Kopinski</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">98</td>
+    <td><a href="/rtr/en/98.html">Guttersnipe</a></td>
+    <td>Creature — Goblin Shaman 2/2</td>
+    <td>2R</td>
+    <td>Uncommon</td>
+    <td>Steve Prescott</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">99</td>
+    <td><a href="/rtr/en/99.html">Lobber Crew</a></td>
+    <td>Creature — Goblin Warrior 0/4</td>
+    <td>2R</td>
+    <td>Common</td>
+    <td>Greg Staples</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">100</td>
+    <td><a href="/rtr/en/100.html">Minotaur Aggressor</a></td>
+    <td>Creature — Minotaur Berserker 6/2</td>
+    <td>6R</td>
+    <td>Uncommon</td>
+    <td>Lucas Graciano</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">101</td>
+    <td><a href="/rtr/en/101.html">Mizzium Mortars</a></td>
+    <td>Sorcery</td>
+    <td>1R</td>
+    <td>Rare</td>
+    <td>Noah Bradley</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">102</td>
+    <td><a href="/rtr/en/102.html">Pursuit of Flight</a></td>
+    <td>Enchantment — Aura</td>
+    <td>1R</td>
+    <td>Common</td>
+    <td>Christopher Moeller</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">103</td>
+    <td><a href="/rtr/en/103.html">Pyroconvergence</a></td>
+    <td>Enchantment</td>
+    <td>4R</td>
+    <td>Uncommon</td>
+    <td>Jack Wang</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">104</td>
+    <td><a href="/rtr/en/104.html">Racecourse Fury</a></td>
+    <td>Enchantment — Aura</td>
+    <td>R</td>
+    <td>Uncommon</td>
+    <td>Sam Burley</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">105</td>
+    <td><a href="/rtr/en/105.html">Splatter Thug</a></td>
+    <td>Creature — Human Warrior 2/2</td>
+    <td>2R</td>
+    <td>Common</td>
+    <td>Kev Walker</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">106</td>
+    <td><a href="/rtr/en/106.html">Street Spasm</a></td>
+    <td>Instant</td>
+    <td>XR</td>
+    <td>Uncommon</td>
+    <td>Raymond Swanland</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">107</td>
+    <td><a href="/rtr/en/107.html">Survey the Wreckage</a></td>
+    <td>Sorcery</td>
+    <td>4R</td>
+    <td>Common</td>
+    <td>Warren Mahy</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">108</td>
+    <td><a href="/rtr/en/108.html">Tenement Crasher</a></td>
+    <td>Creature — Beast 5/4</td>
+    <td>5R</td>
+    <td>Common</td>
+    <td>Warren Mahy</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">109</td>
+    <td><a href="/rtr/en/109.html">Traitorous Instinct</a></td>
+    <td>Sorcery</td>
+    <td>3R</td>
+    <td>Common</td>
+    <td>Daarken</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">110</td>
+    <td><a href="/rtr/en/110.html">Utvara Hellkite</a></td>
+    <td>Creature — Dragon 6/6</td>
+    <td>6RR</td>
+    <td>Mythic Rare</td>
+    <td>Mark Zug</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">111</td>
+    <td><a href="/rtr/en/111.html">Vandalblast</a></td>
+    <td>Sorcery</td>
+    <td>R</td>
+    <td>Uncommon</td>
+    <td>Seb McKinnon</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">112</td>
+    <td><a href="/rtr/en/112.html">Viashino Racketeer</a></td>
+    <td>Creature — Viashino Rogue 2/1</td>
+    <td>2R</td>
+    <td>Common</td>
+    <td>Slawomir Maniak</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">113</td>
+    <td><a href="/rtr/en/113.html">Aerial Predation</a></td>
+    <td>Instant</td>
+    <td>2G</td>
+    <td>Common</td>
+    <td>BD</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">114</td>
+    <td><a href="/rtr/en/114.html">Archweaver</a></td>
+    <td>Creature — Spider 5/5</td>
+    <td>5GG</td>
+    <td>Uncommon</td>
+    <td>Jason Felix</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">115</td>
+    <td><a href="/rtr/en/115.html">Axebane Guardian</a></td>
+    <td>Creature — Human Druid 0/3</td>
+    <td>2G</td>
+    <td>Common</td>
+    <td>Slawomir Maniak</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">116</td>
+    <td><a href="/rtr/en/116.html">Axebane Stag</a></td>
+    <td>Creature — Elk 6/7</td>
+    <td>6G</td>
+    <td>Common</td>
+    <td>Martina Pilcerova</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">117</td>
+    <td><a href="/rtr/en/117.html">Brushstrider</a></td>
+    <td>Creature — Beast 3/1</td>
+    <td>1G</td>
+    <td>Uncommon</td>
+    <td>Raoul Vitale</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">118</td>
+    <td><a href="/rtr/en/118.html">Centaur's Herald</a></td>
+    <td>Creature — Elf Scout 0/1</td>
+    <td>G</td>
+    <td>Common</td>
+    <td>Howard Lyon</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">119</td>
+    <td><a href="/rtr/en/119.html">Chorus of Might</a></td>
+    <td>Instant</td>
+    <td>3G</td>
+    <td>Common</td>
+    <td>Christopher Moeller</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">120</td>
+    <td><a href="/rtr/en/120.html">Deadbridge Goliath</a></td>
+    <td>Creature — Insect 5/5</td>
+    <td>2GG</td>
+    <td>Rare</td>
+    <td>Chase Stone</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">121</td>
+    <td><a href="/rtr/en/121.html">Death's Presence</a></td>
+    <td>Enchantment</td>
+    <td>5G</td>
+    <td>Rare</td>
+    <td>Ryan Barger</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">122</td>
+    <td><a href="/rtr/en/122.html">Drudge Beetle</a></td>
+    <td>Creature — Insect 2/2</td>
+    <td>1G</td>
+    <td>Common</td>
+    <td>Slawomir Maniak</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">123</td>
+    <td><a href="/rtr/en/123.html">Druid's Deliverance</a></td>
+    <td>Instant</td>
+    <td>1G</td>
+    <td>Common</td>
+    <td>Dan Scott</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">124</td>
+    <td><a href="/rtr/en/124.html">Gatecreeper Vine</a></td>
+    <td>Creature — Plant 0/2</td>
+    <td>1G</td>
+    <td>Common</td>
+    <td>Trevor Claxton</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">125</td>
+    <td><a href="/rtr/en/125.html">Giant Growth</a></td>
+    <td>Instant</td>
+    <td>G</td>
+    <td>Common</td>
+    <td>Noah Bradley</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">126</td>
+    <td><a href="/rtr/en/126.html">Gobbling Ooze</a></td>
+    <td>Creature — Ooze 3/3</td>
+    <td>4G</td>
+    <td>Uncommon</td>
+    <td>Johann Bodin</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">127</td>
+    <td><a href="/rtr/en/127.html">Golgari Decoy</a></td>
+    <td>Creature — Elf Rogue 2/2</td>
+    <td>3G</td>
+    <td>Uncommon</td>
+    <td>Marco Nelor</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">128</td>
+    <td><a href="/rtr/en/128.html">Horncaller's Chant</a></td>
+    <td>Sorcery</td>
+    <td>7G</td>
+    <td>Common</td>
+    <td>Eric Velhagen</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">129</td>
+    <td><a href="/rtr/en/129.html">Korozda Monitor</a></td>
+    <td>Creature — Lizard 3/3</td>
+    <td>2GG</td>
+    <td>Common</td>
+    <td>Lars Grant-West</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">130</td>
+    <td><a href="/rtr/en/130.html">Mana Bloom</a></td>
+    <td>Enchantment</td>
+    <td>XG</td>
+    <td>Rare</td>
+    <td>Mike Bierek</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">131</td>
+    <td><a href="/rtr/en/131.html">Oak Street Innkeeper</a></td>
+    <td>Creature — Elf 1/2</td>
+    <td>2G</td>
+    <td>Uncommon</td>
+    <td>Svetlin Velinov</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">132</td>
+    <td><a href="/rtr/en/132.html">Rubbleback Rhino</a></td>
+    <td>Creature — Rhino 3/4</td>
+    <td>4G</td>
+    <td>Common</td>
+    <td>Johann Bodin</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">133</td>
+    <td><a href="/rtr/en/133.html">Savage Surge</a></td>
+    <td>Instant</td>
+    <td>1G</td>
+    <td>Uncommon</td>
+    <td>Svetlin Velinov</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">134</td>
+    <td><a href="/rtr/en/134.html">Seek the Horizon</a></td>
+    <td>Sorcery</td>
+    <td>3G</td>
+    <td>Uncommon</td>
+    <td>Howard Lyon</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">135</td>
+    <td><a href="/rtr/en/135.html">Slime Molding</a></td>
+    <td>Sorcery</td>
+    <td>XG</td>
+    <td>Uncommon</td>
+    <td>Marco Nelor</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">136</td>
+    <td><a href="/rtr/en/136.html">Stonefare Crocodile</a></td>
+    <td>Creature — Crocodile 3/2</td>
+    <td>2G</td>
+    <td>Common</td>
+    <td>Tomasz Jedruszek</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">137</td>
+    <td><a href="/rtr/en/137.html">Towering Indrik</a></td>
+    <td>Creature — Beast 2/4</td>
+    <td>3G</td>
+    <td>Common</td>
+    <td>Lars Grant-West</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">138</td>
+    <td><a href="/rtr/en/138.html">Urban Burgeoning</a></td>
+    <td>Enchantment — Aura</td>
+    <td>G</td>
+    <td>Common</td>
+    <td>Nic Klein</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">139</td>
+    <td><a href="/rtr/en/139.html">Wild Beastmaster</a></td>
+    <td>Creature — Human Shaman 1/1</td>
+    <td>2G</td>
+    <td>Rare</td>
+    <td>Kev Walker</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">140</td>
+    <td><a href="/rtr/en/140.html">Worldspine Wurm</a></td>
+    <td>Creature — Wurm 15/15</td>
+    <td>8GGG</td>
+    <td>Mythic Rare</td>
+    <td>Richard Wright</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">141</td>
+    <td><a href="/rtr/en/141.html">Abrupt Decay</a></td>
+    <td>Instant</td>
+    <td>BG</td>
+    <td>Rare</td>
+    <td>Svetlin Velinov</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">142</td>
+    <td><a href="/rtr/en/142.html">Archon of the Triumvirate</a></td>
+    <td>Creature — Archon 4/5</td>
+    <td>5WU</td>
+    <td>Rare</td>
+    <td>David Rapoza</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">143</td>
+    <td><a href="/rtr/en/143.html">Armada Wurm</a></td>
+    <td>Creature — Wurm 5/5</td>
+    <td>2WWGG</td>
+    <td>Mythic Rare</td>
+    <td>Volkan Baga</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">144</td>
+    <td><a href="/rtr/en/144.html">Auger Spree</a></td>
+    <td>Instant</td>
+    <td>1BR</td>
+    <td>Common</td>
+    <td>Raymond Swanland</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">145</td>
+    <td><a href="/rtr/en/145.html">Azorius Charm</a></td>
+    <td>Instant</td>
+    <td>WU</td>
+    <td>Uncommon</td>
+    <td>Zoltan Boros</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">146</td>
+    <td><a href="/rtr/en/146.html">Call of the Conclave</a></td>
+    <td>Sorcery</td>
+    <td>WG</td>
+    <td>Uncommon</td>
+    <td>Terese Nielsen</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">147</td>
+    <td><a href="/rtr/en/147.html">Carnival Hellsteed</a></td>
+    <td>Creature — Nightmare Horse 5/4</td>
+    <td>4BR</td>
+    <td>Rare</td>
+    <td>Chase Stone</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">148</td>
+    <td><a href="/rtr/en/148.html">Centaur Healer</a></td>
+    <td>Creature — Centaur Cleric 3/3</td>
+    <td>1WG</td>
+    <td>Common</td>
+    <td>Mark Zug</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">149</td>
+    <td><a href="/rtr/en/149.html">Chemister's Trick</a></td>
+    <td>Instant</td>
+    <td>UR</td>
+    <td>Common</td>
+    <td>Christopher Moeller</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">150</td>
+    <td><a href="/rtr/en/150.html">Collective Blessing</a></td>
+    <td>Enchantment</td>
+    <td>3WGG</td>
+    <td>Rare</td>
+    <td>Svetlin Velinov</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">151</td>
+    <td><a href="/rtr/en/151.html">Common Bond</a></td>
+    <td>Instant</td>
+    <td>1WG</td>
+    <td>Common</td>
+    <td>Raymond Swanland</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">152</td>
+    <td><a href="/rtr/en/152.html">Corpsejack Menace</a></td>
+    <td>Creature — Fungus 4/4</td>
+    <td>2BG</td>
+    <td>Rare</td>
+    <td>Chris Rahn</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">153</td>
+    <td><a href="/rtr/en/153.html">Counterflux</a></td>
+    <td>Instant</td>
+    <td>UUR</td>
+    <td>Rare</td>
+    <td>Scott M. Fischer</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">154</td>
+    <td><a href="/rtr/en/154.html">Coursers' Accord</a></td>
+    <td>Sorcery</td>
+    <td>4WG</td>
+    <td>Common</td>
+    <td>Nils Hamm</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">155</td>
+    <td><a href="/rtr/en/155.html">Detention Sphere</a></td>
+    <td>Enchantment</td>
+    <td>1WU</td>
+    <td>Rare</td>
+    <td>Kev Walker</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">156</td>
+    <td><a href="/rtr/en/156.html">Dramatic Rescue</a></td>
+    <td>Instant</td>
+    <td>WU</td>
+    <td>Common</td>
+    <td>Ryan Pancoast</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">157</td>
+    <td><a href="/rtr/en/157.html">Dreadbore</a></td>
+    <td>Sorcery</td>
+    <td>BR</td>
+    <td>Rare</td>
+    <td>Wayne Reynolds</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">158</td>
+    <td><a href="/rtr/en/158.html">Dreg Mangler</a></td>
+    <td>Creature — Plant Zombie 3/3</td>
+    <td>1BG</td>
+    <td>Uncommon</td>
+    <td>Peter Mohrbacher</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">159</td>
+    <td><a href="/rtr/en/159.html">Epic Experiment</a></td>
+    <td>Sorcery</td>
+    <td>XUR</td>
+    <td>Mythic Rare</td>
+    <td>Dan Scott</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">160</td>
+    <td><a href="/rtr/en/160.html">Essence Backlash</a></td>
+    <td>Instant</td>
+    <td>2UR</td>
+    <td>Common</td>
+    <td>Jung Park</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">161</td>
+    <td><a href="/rtr/en/161.html">Fall of the Gavel</a></td>
+    <td>Instant</td>
+    <td>3WU</td>
+    <td>Uncommon</td>
+    <td>Matt Stewart</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">162</td>
+    <td><a href="/rtr/en/162.html">Firemind's Foresight</a></td>
+    <td>Instant</td>
+    <td>5UR</td>
+    <td>Rare</td>
+    <td>Dan Scott</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">163</td>
+    <td><a href="/rtr/en/163.html">Goblin Electromancer</a></td>
+    <td>Creature — Goblin Wizard 2/2</td>
+    <td>UR</td>
+    <td>Common</td>
+    <td>Svetlin Velinov</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">164</td>
+    <td><a href="/rtr/en/164.html">Golgari Charm</a></td>
+    <td>Instant</td>
+    <td>BG</td>
+    <td>Uncommon</td>
+    <td>Zoltan Boros</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">165</td>
+    <td><a href="/rtr/en/165.html">Grisly Salvage</a></td>
+    <td>Instant</td>
+    <td>BG</td>
+    <td>Common</td>
+    <td>Dave Kendall</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">166</td>
+    <td><a href="/rtr/en/166.html">Havoc Festival</a></td>
+    <td>Enchantment</td>
+    <td>4BR</td>
+    <td>Rare</td>
+    <td>Johannes Voss</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">167</td>
+    <td><a href="/rtr/en/167.html">Hellhole Flailer</a></td>
+    <td>Creature — Ogre Warrior 3/2</td>
+    <td>1BR</td>
+    <td>Uncommon</td>
+    <td>Steve Prescott</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">168</td>
+    <td><a href="/rtr/en/168.html">Heroes' Reunion</a></td>
+    <td>Instant</td>
+    <td>WG</td>
+    <td>Uncommon</td>
+    <td>Howard Lyon</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">169</td>
+    <td><a href="/rtr/en/169.html">Hussar Patrol</a></td>
+    <td>Creature — Human Knight 2/4</td>
+    <td>2WU</td>
+    <td>Common</td>
+    <td>Seb McKinnon</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">170</td>
+    <td><a href="/rtr/en/170.html">Hypersonic Dragon</a></td>
+    <td>Creature — Dragon 4/4</td>
+    <td>3UR</td>
+    <td>Rare</td>
+    <td>Dan Scott</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">171</td>
+    <td><a href="/rtr/en/171.html">Isperia, Supreme Judge</a></td>
+    <td>Legendary Creature — Sphinx 6/4</td>
+    <td>2WWUU</td>
+    <td>Mythic Rare</td>
+    <td>Scott M. Fischer</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">172</td>
+    <td><a href="/rtr/en/172.html">Izzet Charm</a></td>
+    <td>Instant</td>
+    <td>UR</td>
+    <td>Uncommon</td>
+    <td>Zoltan Boros</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">173</td>
+    <td><a href="/rtr/en/173.html">Izzet Staticaster</a></td>
+    <td>Creature — Human Wizard 0/3</td>
+    <td>1UR</td>
+    <td>Uncommon</td>
+    <td>Scott M. Fischer</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">174</td>
+    <td><a href="/rtr/en/174.html">Jarad, Golgari Lich Lord</a></td>
+    <td>Legendary Creature — Zombie Elf 2/2</td>
+    <td>BBGG</td>
+    <td>Mythic Rare</td>
+    <td>Eric Deschamps</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">175</td>
+    <td><a href="/rtr/en/175.html">Jarad's Orders</a></td>
+    <td>Sorcery</td>
+    <td>2BG</td>
+    <td>Rare</td>
+    <td>Svetlin Velinov</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">176</td>
+    <td><a href="/rtr/en/176.html">Korozda Guildmage</a></td>
+    <td>Creature — Elf Shaman 2/2</td>
+    <td>BG</td>
+    <td>Uncommon</td>
+    <td>Ryan Pancoast</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">177</td>
+    <td><a href="/rtr/en/177.html">Lotleth Troll</a></td>
+    <td>Creature — Zombie Troll 2/1</td>
+    <td>BG</td>
+    <td>Rare</td>
+    <td>Vincent Proce</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">178</td>
+    <td><a href="/rtr/en/178.html">Loxodon Smiter</a></td>
+    <td>Creature — Elephant Soldier 4/4</td>
+    <td>1WG</td>
+    <td>Rare</td>
+    <td>Ryan Barger</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">179</td>
+    <td><a href="/rtr/en/179.html">Lyev Skyknight</a></td>
+    <td>Creature — Human Knight 3/1</td>
+    <td>1WU</td>
+    <td>Uncommon</td>
+    <td>Johannes Voss</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">180</td>
+    <td><a href="/rtr/en/180.html">Mercurial Chemister</a></td>
+    <td>Creature — Human Wizard 2/3</td>
+    <td>3UR</td>
+    <td>Rare</td>
+    <td>Wesley Burt</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">181</td>
+    <td><a href="/rtr/en/181.html">New Prahv Guildmage</a></td>
+    <td>Creature — Human Wizard 2/2</td>
+    <td>WU</td>
+    <td>Uncommon</td>
+    <td>Karl Kopinski</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">182</td>
+    <td><a href="/rtr/en/182.html">Nivix Guildmage</a></td>
+    <td>Creature — Human Wizard 2/2</td>
+    <td>UR</td>
+    <td>Uncommon</td>
+    <td>Scott M. Fischer</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">183</td>
+    <td><a href="/rtr/en/183.html">Niv-Mizzet, Dracogenius</a></td>
+    <td>Legendary Creature — Dragon Wizard 5/5</td>
+    <td>2UURR</td>
+    <td>Mythic Rare</td>
+    <td>Todd Lockwood</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">184</td>
+    <td><a href="/rtr/en/184.html">Rakdos Charm</a></td>
+    <td>Instant</td>
+    <td>BR</td>
+    <td>Uncommon</td>
+    <td>Zoltan Boros</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">185</td>
+    <td><a href="/rtr/en/185.html">Rakdos Ragemutt</a></td>
+    <td>Creature — Elemental Hound 3/3</td>
+    <td>3BR</td>
+    <td>Uncommon</td>
+    <td>Ryan Barger</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">186</td>
+    <td><a href="/rtr/en/186.html">Rakdos Ringleader</a></td>
+    <td>Creature — Skeleton Warrior 3/1</td>
+    <td>4BR</td>
+    <td>Uncommon</td>
+    <td>Jason Felix</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">187</td>
+    <td><a href="/rtr/en/187.html">Rakdos, Lord of Riots</a></td>
+    <td>Legendary Creature — Demon 6/6</td>
+    <td>BBRR</td>
+    <td>Mythic Rare</td>
+    <td>Vincent Proce</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">188</td>
+    <td><a href="/rtr/en/188.html">Rakdos's Return</a></td>
+    <td>Sorcery</td>
+    <td>XBR</td>
+    <td>Mythic Rare</td>
+    <td>Daarken</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">189</td>
+    <td><a href="/rtr/en/189.html">Righteous Authority</a></td>
+    <td>Enchantment — Aura</td>
+    <td>3WU</td>
+    <td>Rare</td>
+    <td>Scott Chou</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">190</td>
+    <td><a href="/rtr/en/190.html">Risen Sanctuary</a></td>
+    <td>Creature — Elemental 8/8</td>
+    <td>5WG</td>
+    <td>Uncommon</td>
+    <td>Chase Stone</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">191</td>
+    <td><a href="/rtr/en/191.html">Rites of Reaping</a></td>
+    <td>Sorcery</td>
+    <td>4BG</td>
+    <td>Uncommon</td>
+    <td>David Rapoza</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">192</td>
+    <td><a href="/rtr/en/192.html">Rix Maadi Guildmage</a></td>
+    <td>Creature — Human Shaman 2/2</td>
+    <td>BR</td>
+    <td>Uncommon</td>
+    <td>Karl Kopinski</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">193</td>
+    <td><a href="/rtr/en/193.html">Search Warrant</a></td>
+    <td>Sorcery</td>
+    <td>WU</td>
+    <td>Common</td>
+    <td>Steven Belledin</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">194</td>
+    <td><a href="/rtr/en/194.html">Selesnya Charm</a></td>
+    <td>Instant</td>
+    <td>WG</td>
+    <td>Uncommon</td>
+    <td>Zoltan Boros</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">195</td>
+    <td><a href="/rtr/en/195.html">Skull Rend</a></td>
+    <td>Sorcery</td>
+    <td>3BR</td>
+    <td>Common</td>
+    <td>Greg Staples</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">196</td>
+    <td><a href="/rtr/en/196.html">Skymark Roc</a></td>
+    <td>Creature — Bird 3/3</td>
+    <td>2WU</td>
+    <td>Uncommon</td>
+    <td>Christopher Moeller</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">197</td>
+    <td><a href="/rtr/en/197.html">Slaughter Games</a></td>
+    <td>Sorcery</td>
+    <td>2BR</td>
+    <td>Rare</td>
+    <td>Steve Prescott</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">198</td>
+    <td><a href="/rtr/en/198.html">Sluiceway Scorpion</a></td>
+    <td>Creature — Scorpion 2/2</td>
+    <td>2BG</td>
+    <td>Common</td>
+    <td>Slawomir Maniak</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">199</td>
+    <td><a href="/rtr/en/199.html">Spawn of Rix Maadi</a></td>
+    <td>Creature — Horror 5/3</td>
+    <td>3BR</td>
+    <td>Common</td>
+    <td>Min Yum</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">200</td>
+    <td><a href="/rtr/en/200.html">Sphinx's Revelation</a></td>
+    <td>Instant</td>
+    <td>XWUU</td>
+    <td>Mythic Rare</td>
+    <td>Slawomir Maniak</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">201</td>
+    <td><a href="/rtr/en/201.html">Supreme Verdict</a></td>
+    <td>Sorcery</td>
+    <td>1WWU</td>
+    <td>Rare</td>
+    <td>Sam Burley</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">202</td>
+    <td><a href="/rtr/en/202.html">Teleportal</a></td>
+    <td>Sorcery</td>
+    <td>UR</td>
+    <td>Uncommon</td>
+    <td>Scott M. Fischer</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">203</td>
+    <td><a href="/rtr/en/203.html">Thoughtflare</a></td>
+    <td>Instant</td>
+    <td>3UR</td>
+    <td>Uncommon</td>
+    <td>David Rapoza</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">204</td>
+    <td><a href="/rtr/en/204.html">Treasured Find</a></td>
+    <td>Sorcery</td>
+    <td>BG</td>
+    <td>Uncommon</td>
+    <td>Jason Chan</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">205</td>
+    <td><a href="/rtr/en/205.html">Trestle Troll</a></td>
+    <td>Creature — Troll 1/4</td>
+    <td>1BG</td>
+    <td>Common</td>
+    <td>Peter Mohrbacher</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">206</td>
+    <td><a href="/rtr/en/206.html">Trostani, Selesnya's Voice</a></td>
+    <td>Legendary Creature — Dryad 2/5</td>
+    <td>WWGG</td>
+    <td>Mythic Rare</td>
+    <td>Chippy</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">207</td>
+    <td><a href="/rtr/en/207.html">Vitu-Ghazi Guildmage</a></td>
+    <td>Creature — Dryad Shaman 2/2</td>
+    <td>WG</td>
+    <td>Uncommon</td>
+    <td>Jason Chan</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">208</td>
+    <td><a href="/rtr/en/208.html">Vraska the Unseen</a></td>
+    <td>Planeswalker — Vraska (Loyalty: 5)</td>
+    <td>3BG</td>
+    <td>Mythic Rare</td>
+    <td>Aleksi Briclot</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">209</td>
+    <td><a href="/rtr/en/209.html">Wayfaring Temple</a></td>
+    <td>Creature — Elemental */*</td>
+    <td>1WG</td>
+    <td>Rare</td>
+    <td>Peter Mohrbacher</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">210</td>
+    <td><a href="/rtr/en/210.html">Azor's Elocutors</a></td>
+    <td>Creature — Human Advisor 3/5</td>
+    <td>3{W/U}{W/U}</td>
+    <td>Rare</td>
+    <td>Johannes Voss</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">211</td>
+    <td><a href="/rtr/en/211.html">Blistercoil Weird</a></td>
+    <td>Creature — Weird 1/1</td>
+    <td>{U/R}</td>
+    <td>Uncommon</td>
+    <td>Dan Scott</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">212</td>
+    <td><a href="/rtr/en/212.html">Cryptborn Horror</a></td>
+    <td>Creature — Horror 0/0</td>
+    <td>1{B/R}{B/R}</td>
+    <td>Rare</td>
+    <td>Richard Wright</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">213</td>
+    <td><a href="/rtr/en/213.html">Deathrite Shaman</a></td>
+    <td>Creature — Elf Shaman 1/2</td>
+    <td>{B/G}</td>
+    <td>Rare</td>
+    <td>Steve Argyle</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">214</td>
+    <td><a href="/rtr/en/214.html">Dryad Militant</a></td>
+    <td>Creature — Dryad Soldier 2/1</td>
+    <td>{G/W}</td>
+    <td>Uncommon</td>
+    <td>Terese Nielsen</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">215</td>
+    <td><a href="/rtr/en/215.html">Frostburn Weird</a></td>
+    <td>Creature — Weird 1/4</td>
+    <td>{U/R}{U/R}</td>
+    <td>Common</td>
+    <td>Mike Bierek</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">216</td>
+    <td><a href="/rtr/en/216.html">Golgari Longlegs</a></td>
+    <td>Creature — Insect 5/4</td>
+    <td>3{B/G}{B/G}</td>
+    <td>Common</td>
+    <td>Volkan Baga</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">217</td>
+    <td><a href="/rtr/en/217.html">Growing Ranks</a></td>
+    <td>Enchantment</td>
+    <td>2{G/W}{G/W}</td>
+    <td>Rare</td>
+    <td>Seb McKinnon</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">218</td>
+    <td><a href="/rtr/en/218.html">Judge's Familiar</a></td>
+    <td>Creature — Bird 1/1</td>
+    <td>{W/U}</td>
+    <td>Uncommon</td>
+    <td>Jack Wang</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">219</td>
+    <td><a href="/rtr/en/219.html">Nivmagus Elemental</a></td>
+    <td>Creature — Elemental 1/2</td>
+    <td>{U/R}</td>
+    <td>Rare</td>
+    <td>Mike Bierek</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">220</td>
+    <td><a href="/rtr/en/220.html">Rakdos Cackler</a></td>
+    <td>Creature — Devil 1/1</td>
+    <td>{B/R}</td>
+    <td>Uncommon</td>
+    <td>Ryan Barger</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">221</td>
+    <td><a href="/rtr/en/221.html">Rakdos Shred-Freak</a></td>
+    <td>Creature — Human Berserker 2/1</td>
+    <td>{B/R}{B/R}</td>
+    <td>Common</td>
+    <td>Wayne Reynolds</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">222</td>
+    <td><a href="/rtr/en/222.html">Slitherhead</a></td>
+    <td>Creature — Plant Zombie 1/1</td>
+    <td>{B/G}</td>
+    <td>Uncommon</td>
+    <td>Greg Staples</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">223</td>
+    <td><a href="/rtr/en/223.html">Sundering Growth</a></td>
+    <td>Instant</td>
+    <td>{G/W}{G/W}</td>
+    <td>Common</td>
+    <td>David Palumbo</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">224</td>
+    <td><a href="/rtr/en/224.html">Vassal Soul</a></td>
+    <td>Creature — Spirit 2/2</td>
+    <td>1{W/U}{W/U}</td>
+    <td>Common</td>
+    <td>Dan Scott</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">225</td>
+    <td><a href="/rtr/en/225.html">Azorius Keyrune</a></td>
+    <td>Artifact</td>
+    <td>3</td>
+    <td>Uncommon</td>
+    <td>Daniel Ljunggren</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">226</td>
+    <td><a href="/rtr/en/226.html">Chromatic Lantern</a></td>
+    <td>Artifact</td>
+    <td>3</td>
+    <td>Rare</td>
+    <td>Jung Park</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">227</td>
+    <td><a href="/rtr/en/227.html">Civic Saber</a></td>
+    <td>Artifact — Equipment</td>
+    <td>1</td>
+    <td>Uncommon</td>
+    <td>Jung Park</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">228</td>
+    <td><a href="/rtr/en/228.html">Codex Shredder</a></td>
+    <td>Artifact</td>
+    <td>1</td>
+    <td>Uncommon</td>
+    <td>Jason Felix</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">229</td>
+    <td><a href="/rtr/en/229.html">Golgari Keyrune</a></td>
+    <td>Artifact</td>
+    <td>3</td>
+    <td>Uncommon</td>
+    <td>Daniel Ljunggren</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">230</td>
+    <td><a href="/rtr/en/230.html">Izzet Keyrune</a></td>
+    <td>Artifact</td>
+    <td>3</td>
+    <td>Uncommon</td>
+    <td>Daniel Ljunggren</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">231</td>
+    <td><a href="/rtr/en/231.html">Pithing Needle</a></td>
+    <td>Artifact</td>
+    <td>1</td>
+    <td>Rare</td>
+    <td>Anthony Palumbo</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">232</td>
+    <td><a href="/rtr/en/232.html">Rakdos Keyrune</a></td>
+    <td>Artifact</td>
+    <td>3</td>
+    <td>Uncommon</td>
+    <td>Daniel Ljunggren</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">233</td>
+    <td><a href="/rtr/en/233.html">Selesnya Keyrune</a></td>
+    <td>Artifact</td>
+    <td>3</td>
+    <td>Uncommon</td>
+    <td>Daniel Ljunggren</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">234</td>
+    <td><a href="/rtr/en/234.html">Street Sweeper</a></td>
+    <td>Artifact Creature — Construct 4/6</td>
+    <td>6</td>
+    <td>Uncommon</td>
+    <td>Izzy</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">235</td>
+    <td><a href="/rtr/en/235.html">Tablet of the Guilds</a></td>
+    <td>Artifact</td>
+    <td>2</td>
+    <td>Uncommon</td>
+    <td>Nic Klein</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">236</td>
+    <td><a href="/rtr/en/236.html">Volatile Rig</a></td>
+    <td>Artifact Creature — Construct 4/4</td>
+    <td>4</td>
+    <td>Rare</td>
+    <td>Mathias Kollros</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">237</td>
+    <td><a href="/rtr/en/237.html">Azorius Guildgate</a></td>
+    <td>Land — Gate</td>
+    <td></td>
+    <td>Common</td>
+    <td>Drew Baker</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">238</td>
+    <td><a href="/rtr/en/238.html">Blood Crypt</a></td>
+    <td>Land — Swamp Mountain</td>
+    <td></td>
+    <td>Rare</td>
+    <td>Vincent Proce</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">239</td>
+    <td><a href="/rtr/en/239.html">Golgari Guildgate</a></td>
+    <td>Land — Gate</td>
+    <td></td>
+    <td>Common</td>
+    <td>Eytan Zana</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">240</td>
+    <td><a href="/rtr/en/240.html">Grove of the Guardian</a></td>
+    <td>Land</td>
+    <td></td>
+    <td>Rare</td>
+    <td>Christine Choi</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">241</td>
+    <td><a href="/rtr/en/241.html">Hallowed Fountain</a></td>
+    <td>Land — Plains Island</td>
+    <td></td>
+    <td>Rare</td>
+    <td>Jung Park</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">242</td>
+    <td><a href="/rtr/en/242.html">Izzet Guildgate</a></td>
+    <td>Land — Gate</td>
+    <td></td>
+    <td>Common</td>
+    <td>Noah Bradley</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">243</td>
+    <td><a href="/rtr/en/243.html">Overgrown Tomb</a></td>
+    <td>Land — Swamp Forest</td>
+    <td></td>
+    <td>Rare</td>
+    <td>Steven Belledin</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">244</td>
+    <td><a href="/rtr/en/244.html">Rakdos Guildgate</a></td>
+    <td>Land — Gate</td>
+    <td></td>
+    <td>Common</td>
+    <td>Eytan Zana</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">245</td>
+    <td><a href="/rtr/en/245.html">Rogue's Passage</a></td>
+    <td>Land</td>
+    <td></td>
+    <td>Uncommon</td>
+    <td>Christine Choi</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">246</td>
+    <td><a href="/rtr/en/246.html">Selesnya Guildgate</a></td>
+    <td>Land — Gate</td>
+    <td></td>
+    <td>Common</td>
+    <td>Howard Lyon</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">247</td>
+    <td><a href="/rtr/en/247.html">Steam Vents</a></td>
+    <td>Land — Island Mountain</td>
+    <td></td>
+    <td>Rare</td>
+    <td>Yeong-Hao Han</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">248</td>
+    <td><a href="/rtr/en/248.html">Temple Garden</a></td>
+    <td>Land — Forest Plains</td>
+    <td></td>
+    <td>Rare</td>
+    <td>Volkan Baga</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">249</td>
+    <td><a href="/rtr/en/249.html">Transguild Promenade</a></td>
+    <td>Land</td>
+    <td></td>
+    <td>Common</td>
+    <td>Noah Bradley</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">250</td>
+    <td><a href="/rtr/en/250.html">Plains</a></td>
+    <td>Basic Land — Plains</td>
+    <td></td>
+    <td>Land</td>
+    <td>John Avon</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">251</td>
+    <td><a href="/rtr/en/251.html">Plains</a></td>
+    <td>Basic Land — Plains</td>
+    <td></td>
+    <td>Land</td>
+    <td>Yeong-Hao Han</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">252</td>
+    <td><a href="/rtr/en/252.html">Plains</a></td>
+    <td>Basic Land — Plains</td>
+    <td></td>
+    <td>Land</td>
+    <td>Adam Paquette</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">253</td>
+    <td><a href="/rtr/en/253.html">Plains</a></td>
+    <td>Basic Land — Plains</td>
+    <td></td>
+    <td>Land</td>
+    <td>Richard Wright</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">254</td>
+    <td><a href="/rtr/en/254.html">Plains</a></td>
+    <td>Basic Land — Plains</td>
+    <td></td>
+    <td>Land</td>
+    <td>Richard Wright</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">255</td>
+    <td><a href="/rtr/en/255.html">Island</a></td>
+    <td>Basic Land — Island</td>
+    <td></td>
+    <td>Land</td>
+    <td>John Avon</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">256</td>
+    <td><a href="/rtr/en/256.html">Island</a></td>
+    <td>Basic Land — Island</td>
+    <td></td>
+    <td>Land</td>
+    <td>Yeong-Hao Han</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">257</td>
+    <td><a href="/rtr/en/257.html">Island</a></td>
+    <td>Basic Land — Island</td>
+    <td></td>
+    <td>Land</td>
+    <td>Adam Paquette</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">258</td>
+    <td><a href="/rtr/en/258.html">Island</a></td>
+    <td>Basic Land — Island</td>
+    <td></td>
+    <td>Land</td>
+    <td>Richard Wright</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">259</td>
+    <td><a href="/rtr/en/259.html">Island</a></td>
+    <td>Basic Land — Island</td>
+    <td></td>
+    <td>Land</td>
+    <td>Richard Wright</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">260</td>
+    <td><a href="/rtr/en/260.html">Swamp</a></td>
+    <td>Basic Land — Swamp</td>
+    <td></td>
+    <td>Land</td>
+    <td>John Avon</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">261</td>
+    <td><a href="/rtr/en/261.html">Swamp</a></td>
+    <td>Basic Land — Swamp</td>
+    <td></td>
+    <td>Land</td>
+    <td>Yeong-Hao Han</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">262</td>
+    <td><a href="/rtr/en/262.html">Swamp</a></td>
+    <td>Basic Land — Swamp</td>
+    <td></td>
+    <td>Land</td>
+    <td>Adam Paquette</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">263</td>
+    <td><a href="/rtr/en/263.html">Swamp</a></td>
+    <td>Basic Land — Swamp</td>
+    <td></td>
+    <td>Land</td>
+    <td>Richard Wright</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">264</td>
+    <td><a href="/rtr/en/264.html">Swamp</a></td>
+    <td>Basic Land — Swamp</td>
+    <td></td>
+    <td>Land</td>
+    <td>Richard Wright</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">265</td>
+    <td><a href="/rtr/en/265.html">Mountain</a></td>
+    <td>Basic Land — Mountain</td>
+    <td></td>
+    <td>Land</td>
+    <td>John Avon</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">266</td>
+    <td><a href="/rtr/en/266.html">Mountain</a></td>
+    <td>Basic Land — Mountain</td>
+    <td></td>
+    <td>Land</td>
+    <td>Yeong-Hao Han</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">267</td>
+    <td><a href="/rtr/en/267.html">Mountain</a></td>
+    <td>Basic Land — Mountain</td>
+    <td></td>
+    <td>Land</td>
+    <td>Adam Paquette</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">268</td>
+    <td><a href="/rtr/en/268.html">Mountain</a></td>
+    <td>Basic Land — Mountain</td>
+    <td></td>
+    <td>Land</td>
+    <td>Richard Wright</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">269</td>
+    <td><a href="/rtr/en/269.html">Mountain</a></td>
+    <td>Basic Land — Mountain</td>
+    <td></td>
+    <td>Land</td>
+    <td>Richard Wright</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">270</td>
+    <td><a href="/rtr/en/270.html">Forest</a></td>
+    <td>Basic Land — Forest</td>
+    <td></td>
+    <td>Land</td>
+    <td>John Avon</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">271</td>
+    <td><a href="/rtr/en/271.html">Forest</a></td>
+    <td>Basic Land — Forest</td>
+    <td></td>
+    <td>Land</td>
+    <td>Yeong-Hao Han</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">272</td>
+    <td><a href="/rtr/en/272.html">Forest</a></td>
+    <td>Basic Land — Forest</td>
+    <td></td>
+    <td>Land</td>
+    <td>Adam Paquette</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="even">
+    <td align="right">273</td>
+    <td><a href="/rtr/en/273.html">Forest</a></td>
+    <td>Basic Land — Forest</td>
+    <td></td>
+    <td>Land</td>
+    <td>Richard Wright</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+
+  <tr class="odd">
+    <td align="right">274</td>
+    <td><a href="/rtr/en/274.html">Forest</a></td>
+    <td>Basic Land — Forest</td>
+    <td></td>
+    <td>Land</td>
+    <td>Richard Wright</td>
+    <td><img src="http://magiccards.info/images/en.gif" alt="English" width="16" height="11" class="flag2"> Return to Ravnica</td>
+  </tr>
+
+</table>
+<hr>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td width="25%">
+      
+    </td>
+    <td width="50%" align="center">
+      <b>[ 1-274 ]</b> 
+    </td>
+    <td width="25%" align="right">
+      274 cards
+    </td>
+  </tr>
+</table>
+<hr>
+
+
+
+<br>
+<center><a href="http://www.mtgmintcard.com/mtg_search_result.php?edition=Return+to+Ravnica"><img src="http://magiccards.info/mtgmintcard.jpg" width="600" height="120" ></a></center>
+<br>
+
+<br>
+<small style="color: #aaa;font-size: 0.6em;">
+  The information presented on this site about 
+  <b>Magic: The Gathering</b>, both literal and graphical, 
+  is copyrighted by Wizards of the Coast.<br>
+  This website is not produced, endorsed, supported, 
+  or affiliated with Wizards of the Coast.<!-- <br>
+  <i>Release “Giant Spider”, June 2012</i> --></small>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-74661-5']);
+    _gaq.push(['_setDomainName', '.magiccards.info'])
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+    })();
+  </script>
+</body>
+</html>
+
