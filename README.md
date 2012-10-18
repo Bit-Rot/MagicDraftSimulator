@@ -1,0 +1,4 @@
+MagicDraftSimulator
+===================
+
+Magic Draft Simulator
