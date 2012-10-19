@@ -4,7 +4,6 @@ import java.util.HashMap;
 
 public class CardSet {
 	
-	public static enum Sets {RTR, M13, AVR, DKA, INN};
 	private HashMap<Integer, Card> cards;	
 	private String name;
 	

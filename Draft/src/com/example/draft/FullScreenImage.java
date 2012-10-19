@@ -18,7 +18,6 @@ public class FullScreenImage extends Activity
 		ImageView imageView = (ImageView)this.findViewById(R.id.fullimage);
 
 		imageView.setLayoutParams(new LinearLayout.LayoutParams(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.MATCH_PARENT));
-		//imageView.setLayoutParams(new ViewGroup.LayoutParams(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.MATCH_PARENT));
 		imageView.setImageResource(imageId);
 		imageView.setScaleType(ImageView.ScaleType.FIT_XY);
 

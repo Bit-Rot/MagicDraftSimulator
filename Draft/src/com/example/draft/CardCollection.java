@@ -27,11 +27,11 @@ public class CardCollection {
 		return cards.get(i);
 	}
 	
-	public Vector<Card> getCardsByRarity(Card.Rarity rarity){
-		Vector<Card> cardsToReturn = new Vector<Card>();
+	public CardCollection getCardsByRarity(Card.Rarity rarity){
+		CardCollection cardsToReturn = new CardCollection();
 		for(Card c: cards){
 			if (c.getRarity() == rarity){
-				cardsToReturn.add(c);
+				cardsToReturn.addCard(c);
 			}
 		}
 		return cardsToReturn;
@@ -39,6 +39,10 @@ public class CardCollection {
 
 	public int getSize() {
 		return this.cards.size();
+	}
+	
+	public void sortCards(){
+		
 	}
 
 }

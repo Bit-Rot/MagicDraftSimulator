@@ -6,10 +6,12 @@ public class Card {
 	
 	private int number;
 	private String name;
+	private boolean isFoil;
 	private String cost;
 	private String image;	
 	private Rarity rarity;
 	private int imageId;
+	private int convertedManaCost;
 	
 	
 	/*
@@ -22,6 +24,7 @@ public class Card {
 	public Card (){		
 	}
 	
+	//public accessors
 	public int getNumber(){
 		return this.number;
 	}
@@ -58,7 +61,7 @@ public class Card {
 		return this.rarity;
 	}
 	
-	public void setRarioty(Rarity r){
+	public void setRarity(Rarity r){
 		this.rarity = r;		
 	}
 
@@ -69,5 +72,26 @@ public class Card {
 	public void setImageId(int i){
 		this.imageId = i;
 	}
+	
+	public boolean isFoil(){
+		return this.isFoil;
+	}
+	
+	public void setIsFoil(boolean b){
+		this.isFoil = b;
+	}
+
+	public int getCMC(){
+		return convertedManaCost;
+	}
+	
+	public void setCMC(int i){
+		this.convertedManaCost = i;
+	}
+	
+	//More complicated functions
+	
+	
+	
 
 }
