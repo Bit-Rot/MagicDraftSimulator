@@ -2,6 +2,8 @@ package com.example.draft;
 
 import java.io.File;
 
+import com.MagicDraft.CardDatabase.CardCollection;
+
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

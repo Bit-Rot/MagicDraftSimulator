@@ -12,7 +12,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".BoosterView"
+            android:name=".BoosterViewActivity"
             android:label="@string/title_activity_booster_view" >
         </activity>
         <activity

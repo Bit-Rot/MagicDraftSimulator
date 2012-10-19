@@ -2,6 +2,8 @@ package com.example.draft;
 
 import java.util.List;
 
+import com.MagicDraft.CardDatabase.CardDatabase;
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
