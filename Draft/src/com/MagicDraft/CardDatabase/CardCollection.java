@@ -28,6 +28,17 @@ public class CardCollection implements Serializable{
 		return cards.get(i);
 	}
 	
+
+	public void removeCard(Card cardToRemove){
+		for(Card card: cards){
+			if(card.equals(cardToRemove)){
+				cards.remove(card);
+				return;
+			}
+		}
+	}
+	
+	
 	public CardCollection getCardsByRarity(Card.Rarity rarity){
 		CardCollection cardsToReturn = new CardCollection();
 		for(Card c: cards){
@@ -41,6 +52,7 @@ public class CardCollection implements Serializable{
 	public int getSize() {
 		return this.cards.size();
 	}
+	
 	
 	public void sortCards(){
 		
