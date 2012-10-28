@@ -1,12 +1,10 @@
 package com.example.draft;
 
+import java.util.ArrayList;
 import java.util.List;
 
-import com.MagicDraft.CardDatabase.CardDatabase;
-
-import android.os.Bundle;
 import android.app.Activity;
-import android.view.Menu;
+import android.os.Bundle;
 import android.view.Window;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
@@ -24,14 +22,15 @@ public class SetSelectionMenuActivity extends Activity {
         pack2Spinner = (Spinner) this.findViewById(R.id.pack2Spinner);
         pack3Spinner = (Spinner) this.findViewById(R.id.pack3Spinner);
         
-        List<String> availableSets = CardDatabase.getAvailableSets();
+        List<String> availableSets = new ArrayList<String>();
+        for (CardSet set : CardSet.values()) {
+        	availableSets.add(set.getShortName());
+        }
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, availableSets);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         pack1Spinner.setAdapter(adapter);
         pack2Spinner.setAdapter(adapter);
-        pack3Spinner.setAdapter(adapter);      
-        
-        
+        pack3Spinner.setAdapter(adapter);
     }
 
 }
