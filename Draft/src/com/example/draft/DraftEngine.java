@@ -79,9 +79,9 @@ public class DraftEngine extends Activity {
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == SET_SELECTION_MENU_ACTIVITY) {
             if (resultCode == RESULT_OK) {
-            	pack1Set = (CardDatabase.Sets) data.getSerializableExtra("pack1Set");
-            	pack2Set = (CardDatabase.Sets) data.getSerializableExtra("pack2Set");
-            	pack3Set = (CardDatabase.Sets) data.getSerializableExtra("pack3Set");
+            	pack1Set = (CardSet) data.getSerializableExtra("pack1Set");
+            	pack2Set = (CardSet) data.getSerializableExtra("pack2Set");
+            	pack3Set = (CardSet) data.getSerializableExtra("pack3Set");
             	runDraft();
             }
         }
