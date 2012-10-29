@@ -1,7 +1,7 @@
 package com.example.draft.Agent;
 
-import com.MagicDraft.CardDatabase.Card;
-import com.MagicDraft.CardDatabase.CardCollection;
+import com.example.draft.Card;
+import com.example.draft.CardCollection;
 
 public abstract class DraftAgent {
 	

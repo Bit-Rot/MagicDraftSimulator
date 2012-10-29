@@ -1,10 +1,6 @@
 package com.example.draft.Agent;
 
-import android.content.Intent;
-
-import com.MagicDraft.CardDatabase.CardCollection;
-import com.example.draft.BoosterViewActivity;
-import com.example.draft.DraftEngine;
+import com.example.draft.CardCollection;
 
 public class PlayerAgent extends DraftAgent{	
 	

@@ -1,15 +1,6 @@
 package com.example.draft;
 
-import java.io.File;
-
-import com.MagicDraft.CardDatabase.CardCollection;
-
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.drawable.Drawable;
-import android.os.Debug;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -30,11 +21,11 @@ public class ImageAdapter extends BaseAdapter {
     }
 
     public Object getItem(int position) {
-        return null;
+    	return this.cards.getCard(position);
     }
 
     public long getItemId(int position) {
-        return this.cards.getCard(position).getImageId();
+    	return DraftSimulatorApplication.getContext().getResources().getIdentifier("hdpi" + cards.getCard(position).getMultiverseId(), "drawable", "com.example.draft");
     }
 
     // create a new ImageView for each item referenced by the Adapter

@@ -2,8 +2,8 @@ package com.example.draft.Agent;
 
 import java.util.Random;
 
-import com.MagicDraft.CardDatabase.Card;
-import com.MagicDraft.CardDatabase.CardCollection;
+import com.example.draft.Card;
+import com.example.draft.CardCollection;
 
 public class ComputerAgent extends DraftAgent {
 
@@ -23,5 +23,4 @@ public class ComputerAgent extends DraftAgent {
 	    boosterPack.removeCard(card);
 	    this.addCardToPool(card);
 	}
-
 }

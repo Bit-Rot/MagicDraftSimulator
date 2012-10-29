@@ -1,7 +1,5 @@
 package com.example.draft;
 
-import com.MagicDraft.CardDatabase.CardCollection;
-import com.MagicDraft.CardDatabase.CardDatabase;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -12,7 +10,6 @@ import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemLongClickListener;
 import android.widget.GridView;
-import android.widget.Toast;
 
 public class BoosterViewActivity extends Activity {
 
@@ -22,7 +19,7 @@ public class BoosterViewActivity extends Activity {
     	requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_booster_view);
         
-        CardCollection boosterPack = CardDatabase.getBoosterPack(CardDatabase.Sets.RTR);
+        CardCollection boosterPack = BoosterPackGenerator.getBoosterPack(CardSet.RTR);
         
         GridView gridview = (GridView) findViewById(R.id.gridview);
         gridview.setAdapter(new ImageAdapter(this, boosterPack));

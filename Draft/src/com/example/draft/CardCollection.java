@@ -1,4 +1,4 @@
-package com.MagicDraft.CardDatabase;
+package com.example.draft;
 
 import java.io.Serializable;
 import java.util.Collection;
@@ -37,13 +37,11 @@ public class CardCollection implements Serializable{
 			}
 		}
 	}
-	
-	
-	public CardCollection getCardsByRarity(Card.Rarity rarity){
-		CardCollection cardsToReturn = new CardCollection();
+	public Vector<Card> getCardsByRarity(CardRarity rarity){
+		Vector<Card> cardsToReturn = new Vector<Card>();
 		for(Card c: cards){
 			if (c.getRarity() == rarity){
-				cardsToReturn.addCard(c);
+				cardsToReturn.add(c);
 			}
 		}
 		return cardsToReturn;

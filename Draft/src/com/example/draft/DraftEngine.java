@@ -1,9 +1,5 @@
 package com.example.draft;
 
-
-import com.MagicDraft.CardDatabase.CardCollection;
-import com.MagicDraft.CardDatabase.CardDatabase;
-import com.MagicDraft.CardDatabase.CardDatabase.Sets;
 import com.example.draft.Agent.DraftAgent;
 import com.example.draft.Agent.ComputerAgent;
 import com.example.draft.Agent.PlayerAgent;
@@ -23,9 +19,9 @@ public class DraftEngine extends Activity {
 	private static final int NUMBER_OF_AGENTS = 8;
 	private enum ShiftDirection{PASS_LEFT, PASS_RIGHT};
 	
-	private CardDatabase.Sets pack1Set = null;
-	private CardDatabase.Sets pack2Set = null;
-	private CardDatabase.Sets pack3Set = null;
+	private CardSet pack1Set = null;
+	private CardSet pack2Set = null;
+	private CardSet pack3Set = null;
 	private DraftAgent[] agents;	
 	
 	
@@ -55,10 +51,10 @@ public class DraftEngine extends Activity {
 		
 	}
 
-	private void runDraftPicks(Sets set, ShiftDirection passDirection) {
+	private void runDraftPicks(CardSet set, ShiftDirection passDirection) {
 		CardCollection[] boosterPacks = new CardCollection[NUMBER_OF_AGENTS];
 		for(int i = 0; i < NUMBER_OF_AGENTS; i++){
-			boosterPacks[i] = CardDatabase.getBoosterPack(set);
+			boosterPacks[i] = BoosterPackGenerator.getBoosterPack(set);
 		}		
 		int shift = 0;		
 		while ( boosterPacks[0].getSize() > 0){			
