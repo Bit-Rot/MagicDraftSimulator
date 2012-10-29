@@ -35,8 +35,9 @@ public class DraftEngine extends Activity {
 		super.onCreate(b);
     	requestWindowFeature(Window.FEATURE_NO_TITLE);
     	//create agents
-    	agents = new DraftAgent[NUMBER_OF_AGENTS];    	
-    	runDraft();
+    	agents = new DraftAgent[NUMBER_OF_AGENTS];    
+    	//get boosterpacks
+    	getBoosterPackSets();
 	}
 	
     private void runDraft() {
@@ -74,13 +75,9 @@ public class DraftEngine extends Activity {
 		
 	}
 
-	private boolean getBoosterPackSets() {
+	private void getBoosterPackSets() {
     	Intent setSelectionMenu = new Intent(this,SetSelectionMenuActivity.class);
 	    DraftEngine.this.startActivityForResult(setSelectionMenu, SET_SELECTION_MENU_ACTIVITY);
-	    if (pack1Set == null){
-	    	return false;
-	    }
-	    return true;
 	}
 
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -89,6 +86,7 @@ public class DraftEngine extends Activity {
             	pack1Set = (CardDatabase.Sets) data.getSerializableExtra("pack1Set");
             	pack2Set = (CardDatabase.Sets) data.getSerializableExtra("pack2Set");
             	pack3Set = (CardDatabase.Sets) data.getSerializableExtra("pack3Set");
+            	runDraft();
             }
         }
     }
