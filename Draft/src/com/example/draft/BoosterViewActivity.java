@@ -1,6 +1,8 @@
 package com.example.draft;
 
 
+import com.bisatool.db.CardDatabase;
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
@@ -16,6 +18,11 @@ public class BoosterViewActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        
+        //Initialize database with application context
+        //TODO: Right now this activity is the splash page.  If this changes, you MUST move this call to the first activity launched.
+        CardDatabase.getInstance().init(this);
+        
     	requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_booster_view);
         

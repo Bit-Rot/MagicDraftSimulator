@@ -1,6 +1,6 @@
 package com.bisatool.db;
 
-import android.database.DatabaseErrorHandler;
+import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -8,10 +8,9 @@ import android.util.Log;
 
 import com.example.draft.CardRarity;
 import com.example.draft.CardSet;
-import com.example.draft.DraftSimulatorApplication;
 
 public class CardDatabaseHelper extends SQLiteOpenHelper{
-	
+
 	public static final String DATABASE_NAME = "com.bisatool.db";
 	public static final int DATABASE_VERSION = 1;
 
@@ -48,17 +47,11 @@ public class CardDatabaseHelper extends SQLiteOpenHelper{
 		COLUMN_ARTIST + " text not null, " +
 		COLUMN_MULTIVERSE_ID + " text not null, " +
 		COLUMN_IMAGE_URL + " text not null);";
-	
 
-	public CardDatabaseHelper(String name,
-			CursorFactory factory, int version) {
-		super(DraftSimulatorApplication.getContext(), name, factory, version);
-	}
 	
-	public CardDatabaseHelper(String name,
-			CursorFactory factory, int version,
-			DatabaseErrorHandler errorHandler) {
-		super(DraftSimulatorApplication.getContext(), name, factory, version, errorHandler);
+	public CardDatabaseHelper(Context context, String name,
+			CursorFactory factory, int version) {
+		super(context, name, factory, version);
 	}
 
 	@Override

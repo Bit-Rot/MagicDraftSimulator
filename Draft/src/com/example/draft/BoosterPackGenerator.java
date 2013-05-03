@@ -143,7 +143,7 @@ public class BoosterPackGenerator {
 	
 	/**
 	 * Pack generator for sets with flipcards.
-	 */
+	 *
 	private static class FlipCardPackGenerator extends AbstractPackGenerator {
 
 		public FlipCardPackGenerator(CardSet set) {
@@ -157,4 +157,5 @@ public class BoosterPackGenerator {
 		}
 		
 	}
+	*/
 }

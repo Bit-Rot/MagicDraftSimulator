@@ -1,6 +1,7 @@
 package com.bisatool.db;
 
 import android.content.ContentValues;
+import android.content.Context;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
@@ -13,8 +14,7 @@ import com.example.draft.CardSet;
 
 /**
  * CardDao manages conversion of database objects to and from Java objects, and
- * performs CRUD objects with the t_card table of the database.
- * 
+ * performs CRUD operations with the t_card table of the database.
  */
 public class CardDatabase {
 	
@@ -46,8 +46,6 @@ public class CardDatabase {
 	 * @param cursorFactory
 	 */
 	private CardDatabase() {
-		m_cardDatabaseHelper = new CardDatabaseHelper(CardDatabaseHelper.DATABASE_NAME, null,
-				CardDatabaseHelper.DATABASE_VERSION);
 	}
 	
 	//TODO: Figure out a better way of passing context to this class.
@@ -58,6 +56,10 @@ public class CardDatabase {
 	 */
 	public static CardDatabase getInstance() {
 		return (s_instance != null)? s_instance : (s_instance = new CardDatabase());
+	}
+	
+	public void init(Context context) {
+		m_cardDatabaseHelper = new CardDatabaseHelper(context, CardDatabaseHelper.DATABASE_NAME, null, CardDatabaseHelper.DATABASE_VERSION);
 	}
 
 	/**
