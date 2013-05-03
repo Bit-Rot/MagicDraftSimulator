@@ -3,15 +3,22 @@ package com.example.draft;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.example.draft.R;
 import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 import android.view.Window;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import android.widget.Button;
+import android.view.View.OnClickListener;
 
 public class SetSelectionMenuActivity extends Activity {
 
 	private Spinner pack1Spinner, pack2Spinner, pack3Spinner;
+	private Button draftStartButton;
 	
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -31,6 +38,24 @@ public class SetSelectionMenuActivity extends Activity {
         pack1Spinner.setAdapter(adapter);
         pack2Spinner.setAdapter(adapter);
         pack3Spinner.setAdapter(adapter);
+        
+        ButtonListener();
     }
-
+    public void ButtonListener(){
+    	draftStartButton = (Button)findViewById(R.id.button1);
+    	draftStartButton.setOnClickListener(new OnClickListener(){
+    		
+    		
+    		public void onClick(View v){
+    				Intent CardSelectionIntent = new Intent(SetSelectionMenuActivity.this, BoosterViewActivity.class);
+    				SetSelectionMenuActivity.this.startActivity(CardSelectionIntent);
+    		}
+    	});
+    }
 }
+
+
+/*
+ToDo:
+	add button that switches to the next view and generates the Boosters.
+*/
