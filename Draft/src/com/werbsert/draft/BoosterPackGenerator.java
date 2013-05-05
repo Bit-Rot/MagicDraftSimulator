@@ -1,4 +1,4 @@
-package com.example.draft;
+package com.werbsert.draft;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -6,7 +6,11 @@ import java.util.Random;
 import java.util.Set;
 import java.util.Vector;
 
-import com.bisatool.db.CardDatabase;
+import com.werbsert.draft.db.CardDatabase;
+import com.werbsert.draft.model.Card;
+import com.werbsert.draft.model.CardCollection;
+import com.werbsert.draft.model.CardRarity;
+import com.werbsert.draft.model.CardSet;
 
 public class BoosterPackGenerator {
 	private static HashMap<CardSet, AbstractPackGenerator> s_generatorMap;

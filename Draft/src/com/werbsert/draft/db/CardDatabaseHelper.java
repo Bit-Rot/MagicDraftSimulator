@@ -1,4 +1,4 @@
-package com.bisatool.db;
+package com.werbsert.draft.db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -6,8 +6,8 @@ import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import com.example.draft.CardRarity;
-import com.example.draft.CardSet;
+import com.werbsert.draft.model.CardRarity;
+import com.werbsert.draft.model.CardSet;
 
 public class CardDatabaseHelper extends SQLiteOpenHelper{
 

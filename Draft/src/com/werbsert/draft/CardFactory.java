@@ -1,7 +1,18 @@
-package com.example.draft;
+package com.werbsert.draft;
 
 import java.util.HashMap;
 
+import com.werbsert.draft.model.Card;
+import com.werbsert.draft.model.CardCollection;
+import com.werbsert.draft.model.CardRarity;
+import com.werbsert.draft.model.CardSet;
+
+/**
+ * TODO: I think I wrote this class.  Not sure if valid any more.  Might want to look into trashing this, and pull cards directly from
+ * the db classes instead.
+ * 
+ * @author BitRot
+ */
 public class CardFactory {
 	
 	//singleton class
@@ -11,13 +22,11 @@ public class CardFactory {
 	private HashMap<Long, Card> m_cardCache;
 	
 	//private constructor
-	//TODO: introduce a better way to pull context?
 	private CardFactory() {
 		m_cardCache = new HashMap<Long, Card>();
 	}
 	
 	//public accessor
-	//TODO: introduce a better way to pull context?
 	public static CardFactory getInstance() {
 		if (s_instance == null){
 			s_instance = new CardFactory();

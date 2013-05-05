@@ -1,4 +1,4 @@
-package com.bisatool.db;
+package com.werbsert.draft.db;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -6,11 +6,11 @@ import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.draft.Card;
-import com.example.draft.CardCollection;
-import com.example.draft.CardFactory;
-import com.example.draft.CardRarity;
-import com.example.draft.CardSet;
+import com.werbsert.draft.CardFactory;
+import com.werbsert.draft.model.Card;
+import com.werbsert.draft.model.CardCollection;
+import com.werbsert.draft.model.CardRarity;
+import com.werbsert.draft.model.CardSet;
 
 /**
  * CardDao manages conversion of database objects to and from Java objects, and

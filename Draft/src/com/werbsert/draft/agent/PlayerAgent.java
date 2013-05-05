@@ -1,6 +1,6 @@
-package com.example.draft.Agent;
+package com.werbsert.draft.agent;
 
-import com.example.draft.CardCollection;
+import com.werbsert.draft.model.CardCollection;
 
 public class PlayerAgent extends DraftAgent{	
 	

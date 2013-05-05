@@ -1,6 +1,7 @@
-package com.example.draft;
+package com.werbsert.draft.model;
 
 import java.util.HashMap;
+
 
 /**
  * A MTG Expansion.  Might want to store this information in the database

@@ -1,4 +1,4 @@
-package com.example.draft;
+package com.werbsert.draft.activity;
 
 import android.content.Context;
 

@@ -1,9 +1,9 @@
-package com.example.draft.Agent;
+package com.werbsert.draft.agent;
 
 import java.util.Random;
 
-import com.example.draft.Card;
-import com.example.draft.CardCollection;
+import com.werbsert.draft.model.Card;
+import com.werbsert.draft.model.CardCollection;
 
 public class ComputerAgent extends DraftAgent {
 

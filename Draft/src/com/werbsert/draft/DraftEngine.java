@@ -1,8 +1,11 @@
-package com.example.draft;
+package com.werbsert.draft;
 
-import com.example.draft.Agent.DraftAgent;
-import com.example.draft.Agent.ComputerAgent;
-import com.example.draft.Agent.PlayerAgent;
+import com.werbsert.draft.activity.SetSelectionMenuActivity;
+import com.werbsert.draft.agent.ComputerAgent;
+import com.werbsert.draft.agent.DraftAgent;
+import com.werbsert.draft.agent.PlayerAgent;
+import com.werbsert.draft.model.CardCollection;
+import com.werbsert.draft.model.CardSet;
 
 import android.app.Activity;
 import android.content.Intent;

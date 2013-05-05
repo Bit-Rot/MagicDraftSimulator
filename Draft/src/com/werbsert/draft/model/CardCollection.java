@@ -1,8 +1,9 @@
-package com.example.draft;
+package com.werbsert.draft.model;
 
 import java.io.Serializable;
 import java.util.Collection;
 import java.util.Vector;
+
 
 public class CardCollection implements Serializable{
 	
