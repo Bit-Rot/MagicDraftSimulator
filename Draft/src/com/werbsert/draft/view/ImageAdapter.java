@@ -28,7 +28,7 @@ public class ImageAdapter extends BaseAdapter {
     }
 
     public long getItemId(int position) {
-    	return DraftSimulatorApplication.getContext().getResources().getIdentifier("rtr_" + cards.getCard(position).getMultiverseId(), "drawable", "com.example.draft");
+    	return DraftSimulatorApplication.getContext().getResources().getIdentifier("rtr_" + cards.getCard(position).getMultiverseId(), "drawable", "com.werbsert.draft");
     }
 
     // create a new ImageView for each item referenced by the Adapter

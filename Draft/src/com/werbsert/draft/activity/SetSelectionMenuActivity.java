@@ -2,8 +2,7 @@ package com.werbsert.draft.activity;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import com.example.draft.R;
+import com.werbsert.draft.R;
 import com.werbsert.draft.model.CardSet;
 
 import android.app.Activity;

@@ -1,7 +1,7 @@
 package com.werbsert.draft.activity;
 
 
-import com.example.draft.R;
+import com.werbsert.draft.R;
 import com.werbsert.draft.BoosterPackGenerator;
 import com.werbsert.draft.db.CardDatabase;
 import com.werbsert.draft.model.CardCollection;
@@ -16,7 +16,9 @@ import android.view.Menu;
 import android.view.View;
 import android.view.Window;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView.OnItemLongClickListener;
+import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.GridView;
 
 public class BoosterViewActivity extends Activity {
@@ -36,16 +38,15 @@ public class BoosterViewActivity extends Activity {
         
         GridView gridview = (GridView) findViewById(R.id.gridview);
         gridview.setAdapter(new ImageAdapter(this, boosterPack));
-
-        gridview.setOnItemLongClickListener(new OnItemLongClickListener() {
-        		public boolean onItemLongClick(AdapterView<?> parent, View v, int position, long id) {
-			    	int imageId = (int) parent.getAdapter().getItemId(position);
-
-			        Intent fullScreenIntent = new Intent(v.getContext(),FullScreenImage.class);
-			        fullScreenIntent.putExtra("imageId",imageId);
-			        BoosterViewActivity.this.startActivity(fullScreenIntent); 
-			        return true;
-			    }
+        gridview.setOnItemClickListener(new OnItemClickListener(){
+        		public void onItemClick(AdapterView<?> parent, View v,
+					int position, long id) {
+					int imageId = (int) parent.getAdapter().getItemId(position);
+					Intent fullScreenIntent = new Intent(v.getContext(),FullScreenImage.class);
+					fullScreenIntent.putExtra("imageId",imageId);
+					BoosterViewActivity.this.startActivity(fullScreenIntent); 
+					
+				}
 			});
     }
     @Override
