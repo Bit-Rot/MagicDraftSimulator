@@ -7,10 +7,11 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.werbsert.draft.CardFactory;
-import com.werbsert.draft.model.Card;
 import com.werbsert.draft.model.CardCollection;
-import com.werbsert.draft.model.CardRarity;
-import com.werbsert.draft.model.CardSet;
+
+import com.werbsert.draftcommon.model.Card;
+import com.werbsert.draftcommon.model.CardRarity;
+import com.werbsert.draftcommon.model.CardSet;
 
 /**
  * CardDao manages conversion of database objects to and from Java objects, and

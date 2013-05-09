@@ -6,8 +6,8 @@ import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import com.werbsert.draft.model.CardRarity;
-import com.werbsert.draft.model.CardSet;
+import com.werbsert.draftcommon.model.CardRarity;
+import com.werbsert.draftcommon.model.CardSet;
 
 public class CardDatabaseHelper extends SQLiteOpenHelper{
 

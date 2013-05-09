@@ -2,8 +2,9 @@ package com.werbsert.draft.agent;
 
 import java.util.Random;
 
-import com.werbsert.draft.model.Card;
 import com.werbsert.draft.model.CardCollection;
+
+import com.werbsert.draftcommon.model.Card;
 
 public class ComputerAgent extends DraftAgent {
 

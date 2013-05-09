@@ -2,10 +2,11 @@ package com.werbsert.draft;
 
 import java.util.HashMap;
 
-import com.werbsert.draft.model.Card;
 import com.werbsert.draft.model.CardCollection;
-import com.werbsert.draft.model.CardRarity;
-import com.werbsert.draft.model.CardSet;
+
+import com.werbsert.draftcommon.model.Card;
+import com.werbsert.draftcommon.model.CardRarity;
+import com.werbsert.draftcommon.model.CardSet;
 
 /**
  * TODO: I think I wrote this class.  Not sure if valid any more.  Might want to look into trashing this, and pull cards directly from
