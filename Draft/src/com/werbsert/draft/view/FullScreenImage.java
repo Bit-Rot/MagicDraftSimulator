@@ -1,6 +1,6 @@
 package com.werbsert.draft.view;
 
-import com.werbsert.draft.R;   
+import com.werbsert.draft.R;
 
 import android.app.Activity;
 import android.content.Intent;

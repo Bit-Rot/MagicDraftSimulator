@@ -2,13 +2,17 @@ package com.werbsert.draft.activity;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import com.werbsert.draft.R;
-import com.werbsert.draft.model.CardSet;
+import com.werbsert.draftcommon.model.CardSet;
 
 import android.app.Activity;
+import android.content.ContentResolver;
 import android.content.Intent;
+import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.ArrayAdapter;
@@ -41,6 +45,29 @@ public class SetSelectionMenuActivity extends Activity {
         pack3Spinner.setAdapter(adapter);
         
         ButtonListener();
+        
+        Uri.Builder uriBuilder = new Uri.Builder();
+        uriBuilder.scheme("content");
+        uriBuilder.authority("com.werbsert.testdraftset.testprovider");
+        uriBuilder.path("");
+        uriBuilder.query("");
+        
+        ContentResolver contentResolver = getContentResolver();
+        Cursor cursor = contentResolver.query(
+        		uriBuilder.build(), 
+        		new String[] {"_ID", "VALUE"},
+        		"", 
+        		null, 
+        		null);
+        
+        if (cursor != null && cursor.getCount() > 0) {
+        	while (cursor.moveToNext()) {
+		        Long myLong = cursor.getLong(0);
+		        String myString = cursor.getString(1);
+		        
+		        Log.i("INFO: ", "id = " + myLong + " & value = " + myString);
+        	}
+        }
     }
     public void ButtonListener(){
     	draftStartButton = (Button)findViewById(R.id.button1);

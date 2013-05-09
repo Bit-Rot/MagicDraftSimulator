@@ -5,9 +5,10 @@ import com.werbsert.draft.R;
 import com.werbsert.draft.BoosterPackGenerator;
 import com.werbsert.draft.db.CardDatabase;
 import com.werbsert.draft.model.CardCollection;
-import com.werbsert.draft.model.CardSet;
 import com.werbsert.draft.view.FullScreenImage;
 import com.werbsert.draft.view.ImageAdapter;
+
+import com.werbsert.draftcommon.model.CardSet;
 
 import android.os.Bundle;
 import android.app.Activity;

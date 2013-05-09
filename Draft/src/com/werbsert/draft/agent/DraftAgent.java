@@ -1,7 +1,8 @@
 package com.werbsert.draft.agent;
 
-import com.werbsert.draft.model.Card;
 import com.werbsert.draft.model.CardCollection;
+
+import com.werbsert.draftcommon.model.Card;
 
 public abstract class DraftAgent {
 	

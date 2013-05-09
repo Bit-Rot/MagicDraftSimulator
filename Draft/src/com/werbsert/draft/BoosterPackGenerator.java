@@ -7,10 +7,11 @@ import java.util.Set;
 import java.util.Vector;
 
 import com.werbsert.draft.db.CardDatabase;
-import com.werbsert.draft.model.Card;
 import com.werbsert.draft.model.CardCollection;
-import com.werbsert.draft.model.CardRarity;
-import com.werbsert.draft.model.CardSet;
+
+import com.werbsert.draftcommon.model.Card;
+import com.werbsert.draftcommon.model.CardRarity;
+import com.werbsert.draftcommon.model.CardSet;
 
 public class BoosterPackGenerator {
 	private static HashMap<CardSet, AbstractPackGenerator> s_generatorMap;
