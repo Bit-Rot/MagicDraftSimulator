@@ -1,4 +1,4 @@
-package com.werbsert.draft.model;
+package com.werbsert.draftcommon.model;
 
 public class Card {
 	

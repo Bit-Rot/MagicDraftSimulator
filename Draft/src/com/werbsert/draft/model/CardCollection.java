@@ -4,9 +4,13 @@ import java.io.Serializable;
 import java.util.Collection;
 import java.util.Vector;
 
+import com.werbsert.draftcommon.model.Card;
+import com.werbsert.draftcommon.model.CardRarity;
 
 public class CardCollection implements Serializable{
 	
+	private static final long serialVersionUID = -1649469186001740969L;
+
 	public Vector<Card> cards;
 	
 	public CardCollection(){

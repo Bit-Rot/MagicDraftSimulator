@@ -1,0 +1,26 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.werbsert.testdraftset"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+    <permission android:name="com.werbsert.testdraftset.testprovider.READ_PERMISSION" android:label="Fuck you" />
+    <permission android:name="com.werbsert.testdraftset.testprovider.WRITE_PERMISSION" android:label="Fuck you"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <provider
+            android:authorities="com.werbsert.testdraftset.testprovider"
+            android:name="com.werbsert.testdraftset.TestProvider"
+            android:readPermission="com.werbsert.testdraftset.testprovider.READ_PERMISSION"
+            android:writePermission="com.werbsert.testdraftset.testprovider.WRITE_PERMISSION"
+            android:exported="true" >
+        </provider>
+    </application>
+
+</manifest>

@@ -3,6 +3,7 @@
 	<name>Draft</name>
 	<comment></comment>
 	<projects>
+		<project>DraftCommon</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

@@ -5,7 +5,8 @@ import com.werbsert.draft.agent.ComputerAgent;
 import com.werbsert.draft.agent.DraftAgent;
 import com.werbsert.draft.agent.PlayerAgent;
 import com.werbsert.draft.model.CardCollection;
-import com.werbsert.draft.model.CardSet;
+
+import com.werbsert.draftcommon.model.CardSet;
 
 import android.app.Activity;
 import android.content.Intent;
