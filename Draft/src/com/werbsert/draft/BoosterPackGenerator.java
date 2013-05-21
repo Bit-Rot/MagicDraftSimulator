@@ -2,13 +2,13 @@ package com.werbsert.draft;
 
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Random;
 import java.util.Set;
 import java.util.Vector;
 
-import com.werbsert.draft.db.CardDatabase;
 import com.werbsert.draft.model.CardCollection;
-
+import com.werbsert.draft.service.CardService;
 import com.werbsert.draftcommon.model.Card;
 import com.werbsert.draftcommon.model.CardRarity;
 import com.werbsert.draftcommon.model.CardSet;
@@ -80,10 +80,11 @@ public class BoosterPackGenerator {
 		}
 
 		public CardCollection generatePack() {
-			CardDatabase.getInstance().open();
-			CardCollection entireSet = CardDatabase.getInstance().getCardsBySet(m_set);
-			CardDatabase.getInstance().close();
-			Random random = new Random();
+
+			List<Card> cardList = CardService.getInstance().getCardsBySet(m_set);
+	        CardCollection entireSet = new CardCollection(cardList);
+	        
+	        Random random = new Random();
 			
 			//Decide on rare or mythic rare
 			boolean isRareMythic = random.nextDouble() < CHANCE_OF_MYTHIC_RARE;

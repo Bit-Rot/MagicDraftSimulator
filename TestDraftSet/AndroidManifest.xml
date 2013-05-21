@@ -6,10 +6,11 @@
     <uses-sdk
         android:minSdkVersion="11"
         android:targetSdkVersion="17" />
-    <permission android:name="com.werbsert.testdraftset.testprovider.READ_PERMISSION" android:label="Fuck you" />
-    <permission android:name="com.werbsert.testdraftset.testprovider.WRITE_PERMISSION" android:label="Fuck you"/>
+    <permission android:name="com.werbsert.testdraftset.testprovider.READ_PERMISSION" android:label="TestDraftSet Read Permissions" />
+    <permission android:name="com.werbsert.testdraftset.testprovider.WRITE_PERMISSION" android:label="TestDraftSet Write Permissions"/>
 
     <application
+        android:name="com.werbsert.testdraftset.TestDraftSetApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"

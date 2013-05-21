@@ -1,0 +1,7 @@
+Draft/bin/
+Draft/gen/
+TestDraftSet/bin/
+TestDraftSet/gen/
+DraftCommon/bin/
+DraftCommon/gen/
+*/.settings/*

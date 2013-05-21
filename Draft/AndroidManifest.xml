@@ -14,7 +14,7 @@
         android:allowBackup="true" />
 
     <application
-        android:name="com.werbsert.draft.activity.DraftSimulatorApplication"
+        android:name="com.werbsert.draft.DraftSimulatorApplication"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme"

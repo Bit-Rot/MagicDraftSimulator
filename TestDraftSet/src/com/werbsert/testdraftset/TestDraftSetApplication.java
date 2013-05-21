@@ -1,18 +1,21 @@
-package com.werbsert.draft.activity;
+package com.werbsert.testdraftset;
+
+import com.werbsert.draftcommon.log.DebugLog;
 
 import android.content.Context;
 
-public class DraftSimulatorApplication extends android.app.Application {
+public class TestDraftSetApplication extends android.app.Application {
 
-    private static DraftSimulatorApplication s_instance;
+    private static TestDraftSetApplication s_instance;
 
     /**
      * Called when application is launched.  Used to set up static context.
      */
-    public DraftSimulatorApplication() {
+    public TestDraftSetApplication() {
     }
 
     public void onCreate() {
+    	DebugLog.log("Entering onCreate()");
     	super.onCreate();
     	s_instance = this;
     }
