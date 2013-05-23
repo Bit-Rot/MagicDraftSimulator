@@ -16,7 +16,7 @@ import com.werbsert.draftcommon.model.CardSet;
  */
 public class CardTable {
 
-	public static final String DATABASE_NAME = "com.bisatool.db";
+	public static final String DATABASE_NAME = "com.werbsert.testdraftset.card";
 	public static final int DATABASE_VERSION = 1;
 	
 	public static final String TABLE_CARD = "t_card";
@@ -40,10 +40,6 @@ public class CardTable {
 
 	/**
 	 * Create a card in the database with the given values.
-	 * TODO: This function should not exist publicly.  Should only be run in CardDatabaseHelper.onCreate.
-	 * 		 Figure out how to better place this logic.
-	 * 		 Maybe we can make the 'allColumns' variable public, write this function as a member
-	 * 		 of CardDatabasehelper and call in onCreate.
 	 */
 	private static Card createCard(SQLiteDatabase db, String name, String mana, Integer cmc, String text,
 			String type, String flavor, Integer power, Integer toughness,
@@ -76,16 +72,6 @@ public class CardTable {
 		cursor.close();
 		return newCard;
 	}
-	
-	/*
-	private static void deleteCard(Card card) {
-		long id = card.getId();
-		System.out.println("Comment deleted with id: " + id);
-		m_database.delete(TABLE_CARD, 
-				DraftContract.Card.COLUMN_ID + " = " + id, 
-			null);
-	}
-	*/
 		
 	private static Card cursorToCard(Cursor cursor) {
 		

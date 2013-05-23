@@ -1,13 +1,15 @@
 <resources>
 
-    <string name="app_name">Draft</string>
+    <string name="com_werbsert_draft_draftsimulatorapplication_label">Draft</string>
+    <string name="com_werbsert_draft_activity_boosterviewactivity_label">Booster View Activity</string>
+    <string name="com_werbsert_draft_activity_cardcollectionviewactivity_label">Card Collection View Activity</string>
+    <string name="com_werbsert_draft_view_fullscreenimage_label">Full Screen Image View</string>
     <string name="menu_settings">Settings</string>
-    <string name="title_activity_booster_view">BoosterView</string>
-    <string name="title_activity_main">MainActivity</string>
-    <string name="pack1">Pack 1</string>
-    <string name="pack2">Pack 2</string>
-    <string name="pack3">Pack 3</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="title_activity_set_selection_menu">SetSelectionMenuActivity</string>
+    <string name="com_werbsert_draft_activity_setselectionmenuactivity_pack1">Pack 1</string>
+    <string name="com_werbsert_draft_activity_setselectionmenuactivity_pack2">Pack 2</string>
+    <string name="com_werbsert_draft_activity_setselectionmenuactivity_pack3">Pack 3</string>
+    <string name="com_werbsert_draft_activity_setselectionmenuactivity_label">Set Selection Menu Activity</string>
+    <string name="com_werbsert_draft_activity_setselectionmenuactivity_button1_text">Start Draft</string>
+    <string name="com_werbsert_draft_activity_setselectionmenuactivity_button2_text">Test Set</string>
 
 </resources>

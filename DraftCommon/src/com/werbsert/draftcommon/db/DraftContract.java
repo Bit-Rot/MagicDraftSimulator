@@ -15,6 +15,13 @@ public final class DraftContract {
 		public static final Uri CARD_URI = Uri.parse(SCHEME + "://" + AUTHORITY + "/" + TYPE);
 	}
 	
+	public static final class ReturnToRavnica {
+		public static final String AUTHORITY = "com.werbsert.rtr.rtrprovider";
+		public static final String TYPE = "Card";
+		public static final String SCHEME = "content";
+		public static final Uri CARD_URI = Uri.parse(SCHEME + "://" + AUTHORITY + "/" + TYPE);
+	}
+	
 	public static final class Card {
 
 		public static final String COLUMN_ID = "_id";

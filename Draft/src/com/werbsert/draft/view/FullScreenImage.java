@@ -13,7 +13,7 @@ public class FullScreenImage extends Activity
 {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.full_image);
+		setContentView(R.layout.com_werbsert_draft_view_fullscreenimage);
 		Intent intent = getIntent();
 		int imageId = (int) intent.getExtras().getInt("imageId");
 		ImageView imageView = (ImageView)this.findViewById(R.id.fullimage);

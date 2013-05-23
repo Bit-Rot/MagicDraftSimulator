@@ -25,22 +25,20 @@ public class BoosterViewActivity extends Activity {
         super.onCreate(savedInstanceState);
         
     	requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.activity_booster_view);
+        setContentView(R.layout.com_werbsert_draft_activity_boosterviewactivity);
 
         CardCollection boosterPack = BoosterPackGenerator.getBoosterPack(CardSet.RTR);
         
         GridView gridview = (GridView) findViewById(R.id.gridview);
         gridview.setAdapter(new ImageAdapter(this, boosterPack));
         gridview.setOnItemClickListener(new OnItemClickListener(){
-    		public void onItemClick(AdapterView<?> parent, View v,
-					int position, long id) {
-					int imageId = (int) parent.getAdapter().getItemId(position);
-					Intent fullScreenIntent = new Intent(v.getContext(),FullScreenImage.class);
-					fullScreenIntent.putExtra("imageId",imageId);
-					BoosterViewActivity.this.startActivity(fullScreenIntent); 
-					
-				}
-			});
+    		public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
+				int imageId = (int) parent.getAdapter().getItemId(position);
+				Intent fullScreenIntent = new Intent(v.getContext(),FullScreenImage.class);
+				fullScreenIntent.putExtra("imageId",imageId);
+				BoosterViewActivity.this.startActivity(fullScreenIntent);
+			}
+		});
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

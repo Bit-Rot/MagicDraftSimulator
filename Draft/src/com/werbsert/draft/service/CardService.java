@@ -51,7 +51,7 @@ public class CardService {
 			uri = DraftContract.TestDraftSet.CARD_URI;
 			break;
 		case RTR:
-			uri = DraftContract.TestDraftSet.CARD_URI;
+			uri = DraftContract.ReturnToRavnica.CARD_URI;
 			break;
 		default:
 			String errorMessage = "Set \"" + set.getLongName() + "\" has no corresponding card database";
