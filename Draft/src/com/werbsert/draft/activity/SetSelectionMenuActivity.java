@@ -46,7 +46,7 @@ public class SetSelectionMenuActivity extends Activity {
 			}
 		});
 
-        bindListenerToButton(R.id.com_werbsert_draft_activity_setselectionmenuactivity_button1, new OnClickListener() {
+        bindListenerToButton(R.id.com_werbsert_draft_activity_setselectionmenuactivity_button2, new OnClickListener() {
     		public void onClick(View v) {
 				Intent CardSelectionIntent = new Intent(SetSelectionMenuActivity.this, CardCollectionViewActivity.class);
 				SetSelectionMenuActivity.this.startActivity(CardSelectionIntent);
