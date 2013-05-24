@@ -8,10 +8,10 @@ public abstract class DraftAgent {
 	
 	public enum AgentType {Human, Computer};
 	
-	protected static String name;
-	protected static CardCollection pool;
-	protected static CardCollection deck;
-	protected static CardCollection sideBoard;
+	protected String name;
+	protected CardCollection pool;
+	protected CardCollection deck;
+	protected CardCollection sideBoard;
 	
 	protected DraftAgent(){
 		pool = new CardCollection();
