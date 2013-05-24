@@ -3,7 +3,7 @@
     <string name="com_werbsert_draft_draftsimulatorapplication_label">Draft</string>
     <string name="com_werbsert_draft_activity_boosterviewactivity_label">Booster View Activity</string>
     <string name="com_werbsert_draft_activity_cardcollectionviewactivity_label">Card Collection View Activity</string>
-    <string name="com_werbsert_draft_view_fullscreenimage_label">Full Screen Image View</string>
+    <string name="com_werbsert_draft_activity_fullscreenimageactivity_label">Full Screen Image View</string>
     <string name="menu_settings">Settings</string>
     <string name="com_werbsert_draft_activity_setselectionmenuactivity_pack1">Pack 1</string>
     <string name="com_werbsert_draft_activity_setselectionmenuactivity_pack2">Pack 2</string>

@@ -16,7 +16,6 @@ import android.widget.GridView;
 import com.werbsert.draft.R;
 import com.werbsert.draft.model.CardCollection;
 import com.werbsert.draft.service.CardService;
-import com.werbsert.draft.view.FullScreenImage;
 import com.werbsert.draft.view.ImageAdapter;
 import com.werbsert.draftcommon.model.Card;
 import com.werbsert.draftcommon.model.CardSet;
@@ -44,7 +43,7 @@ public class CardCollectionViewActivity extends Activity {
     		public void onItemClick(AdapterView<?> parent, View v,
 					int position, long id) {
 					int imageId = (int) parent.getAdapter().getItemId(position);
-					Intent fullScreenIntent = new Intent(v.getContext(),FullScreenImage.class);
+					Intent fullScreenIntent = new Intent(v.getContext(),FullScreenImageActivity.class);
 					fullScreenIntent.putExtra("imageId",imageId);
 					fullScreenIntent.putExtra("multiverseId", id);
 					CardCollectionViewActivity.this.startActivity(fullScreenIntent); 

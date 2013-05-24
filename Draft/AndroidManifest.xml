@@ -43,8 +43,8 @@
             android:label="@string/com_werbsert_draft_activity_cardcollectionviewactivity_label" >
         </activity>
         <activity
-            android:name="com.werbsert.draft.view.FullScreenImage"
-            android:label="@string/com_werbsert_draft_view_fullscreenimage_label" >
+            android:name="com.werbsert.draft.activity.FullScreenImageActivity"
+            android:label="@string/com_werbsert_draft_activity_fullscreenimageactivity_label" >
         </activity>
         <activity
             android:name="com.werbsert.draft.activity.SetSelectionMenuActivity"

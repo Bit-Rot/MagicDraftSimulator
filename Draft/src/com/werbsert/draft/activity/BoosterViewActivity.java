@@ -14,7 +14,6 @@ import android.widget.GridView;
 import com.werbsert.draft.BoosterPackGenerator;
 import com.werbsert.draft.R;
 import com.werbsert.draft.model.CardCollection;
-import com.werbsert.draft.view.FullScreenImage;
 import com.werbsert.draft.view.ImageAdapter;
 import com.werbsert.draftcommon.model.CardSet;
 
@@ -34,7 +33,7 @@ public class BoosterViewActivity extends Activity {
         gridview.setOnItemClickListener(new OnItemClickListener(){
     		public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
 				int imageId = (int) parent.getAdapter().getItemId(position);
-				Intent fullScreenIntent = new Intent(v.getContext(),FullScreenImage.class);
+				Intent fullScreenIntent = new Intent(v.getContext(),FullScreenImageActivity.class);
 				fullScreenIntent.putExtra("imageId",imageId);
 				BoosterViewActivity.this.startActivity(fullScreenIntent);
 			}

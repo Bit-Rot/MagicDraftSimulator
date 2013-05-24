@@ -1,4 +1,4 @@
-package com.werbsert.draft.view;
+package com.werbsert.draft.activity;
 
 import com.werbsert.draft.R;
 
@@ -10,12 +10,12 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-public class FullScreenImage extends Activity
+public class FullScreenImageActivity extends Activity
 {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE); 
-		setContentView(R.layout.com_werbsert_draft_view_fullscreenimage);
+		setContentView(R.layout.com_werbsert_draft_activity_fullscreenimageactivity);
 		Intent intent = getIntent();
 		int imageId = (int) intent.getExtras().getInt("imageId");
 		ImageView imageView = (ImageView)this.findViewById(R.id.fullimage);
