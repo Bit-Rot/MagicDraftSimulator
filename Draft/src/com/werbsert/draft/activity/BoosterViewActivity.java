@@ -42,7 +42,7 @@ public class BoosterViewActivity extends Activity {
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.activity_booster_view, menu);
+        getMenuInflater().inflate(R.menu.com_werbsert_draft_activity_boosterviewactivity, menu);
         return true;
     }
 }

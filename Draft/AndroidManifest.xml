@@ -18,6 +18,18 @@
     <uses-permission 
         android:name="com.werbsert.rtr.rtrprovider.WRITE_PERMISSION"
         android:allowBackup="true" />
+    <uses-permission 
+        android:name="android.permission.INTERNET"
+        android:allowBackup="true" />
+    <uses-permission
+        android:name="READ_EXTERNAL_STORAGE"
+        android:allowBackup="true" />
+    <uses-permission
+        android:name="WRITE_EXTERNAL_STORAGE"
+        android:allowBackup="true" />
+    <uses-permission
+        android:name="READ_EXTERNAL_STORAGE"
+        android:allowBackup="true" />
 
     <application
         android:name="com.werbsert.draft.DraftSimulatorApplication"
