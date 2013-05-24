@@ -17,7 +17,7 @@ public class DraftEngine extends Activity {
 	
 	//activity codes
 	private static final int SET_SELECTION_MENU_ACTIVITY = 0;
-	private static final int BOOSTER_VIEW_ACTIVITY = 1;
+	//private static final int BOOSTER_VIEW_ACTIVITY = 1;
 	
 	//static variables
 	private static final int NUMBER_OF_AGENTS = 8;
@@ -58,8 +58,9 @@ public class DraftEngine extends Activity {
 	private void runDraftPicks(CardSet set, ShiftDirection passDirection) {
 		CardCollection[] boosterPacks = new CardCollection[NUMBER_OF_AGENTS];
 		for(int i = 0; i < NUMBER_OF_AGENTS; i++){
-			boosterPacks[i] = BoosterPackGenerator.getBoosterPack(set);
-		}		
+			//TODO: Generate booster packs
+			//boosterPacks[i] = BoosterPackGenerator.getBoosterPack(set);
+		}
 		int shift = 0;		
 		while ( boosterPacks[0].getSize() > 0){			
 			for(int agentNum = 0; agentNum < NUMBER_OF_AGENTS; agentNum++){

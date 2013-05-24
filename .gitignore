@@ -1,0 +1,9 @@
+Draft/bin/
+Draft/gen/
+TestDraftSet/bin/
+TestDraftSet/gen/
+DraftCommon/bin/
+DraftCommon/gen/
+ReturnToRavnica/bin/
+ReturnToRavnica/gen/
+*/.settings/*

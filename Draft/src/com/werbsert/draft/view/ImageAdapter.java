@@ -1,6 +1,6 @@
 package com.werbsert.draft.view;
 
-import com.werbsert.draft.activity.DraftSimulatorApplication;
+import com.werbsert.draft.DraftSimulatorApplication;
 import com.werbsert.draft.model.CardCollection;
 
 import android.content.Context;
