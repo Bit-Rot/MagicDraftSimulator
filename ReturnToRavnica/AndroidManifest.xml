@@ -6,8 +6,6 @@
     <uses-sdk
         android:minSdkVersion="11"
         android:targetSdkVersion="17" />
-    <permission android:name="com.werbsert.rtr.rtrprovider.READ_PERMISSION" android:label="Permission to retrieve Return to Ravnica cards and information." />
-    <permission android:name="com.werbsert.rtr.rtrprovider.WRITE_PERMISSION" android:label="Permission to write data related to the Return to Ravnica set."/>
 
     <application
         android:name="com.werbsert.rtr.RtrApplication"
@@ -16,10 +14,8 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <provider
-            android:authorities="com.werbsert.rtr.rtrprovider"
+            android:authorities="com.werbsert.rtr.rtrprovider"	
             android:name="com.werbsert.rtr.RtrProvider"
-            android:readPermission="com.werbsert.rtr.rtrprovider.READ_PERMISSION"
-            android:writePermission="com.werbsert.rtr.rtrprovider.READ_PERMISSION"
             android:exported="true" >
         </provider>
     </application>

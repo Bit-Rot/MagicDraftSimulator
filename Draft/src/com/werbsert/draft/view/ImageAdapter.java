@@ -1,6 +1,11 @@
 package com.werbsert.draft.view;
 
+import java.io.File;
+
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -8,7 +13,11 @@ import android.widget.GridView;
 import android.widget.ImageView;
 
 import com.handlerexploit.prime.widgets.RemoteImageView;
+import com.werbsert.draft.DraftSimulatorApplication;
 import com.werbsert.draft.model.CardCollection;
+import com.werbsert.draft.util.CardImageManager;
+import com.werbsert.draft.util.FileManager;
+import com.werbsert.draftcommon.model.Card;
 
 public class ImageAdapter extends BaseAdapter {
     private Context m_context;
@@ -23,7 +32,7 @@ public class ImageAdapter extends BaseAdapter {
         return this.m_cards.getSize();
     }
 
-    public Object getItem(int position) {
+    public Card getItem(int position) {
     	return this.m_cards.getCard(position);
     }
 
@@ -36,17 +45,47 @@ public class ImageAdapter extends BaseAdapter {
     }
 
     public View getView(int position, View convertView, ViewGroup parent) {
-    	RemoteImageView imageView;
-        if (convertView == null) {  // if it's not recycled, initialize some attributes
-            imageView = new RemoteImageView(m_context);
-            imageView.setLayoutParams(new GridView.LayoutParams(100, 150));
-            imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-            imageView.setPadding(8, 8, 8, 8);
-        } else {
-            imageView = (RemoteImageView) convertView;
+
+    	//Recycle content if possible
+    	if (convertView != null) {
+            return convertView;
         }
-        imageView.setImageURL(getImageUrl(position));
+    	
+    	//Pull card and attempt to pull existing card image
+    	final Card card = getItem(position);
+    	File cardImage = CardImageManager.getInstance().getImage(card.getMultiverseId());
+    	
+    	ImageView view = null;
+    	if (cardImage != null) {
+    		//Use the existing card image, shove it in a view
+        	ImageView imageView = new ImageView(DraftSimulatorApplication.getContext());
+
+            Bitmap bitmap = BitmapFactory.decodeFile(cardImage.getAbsolutePath());
+            imageView.setImageBitmap(bitmap);
+            
+        	view = imageView;
+    	} else {
+    		//Use remote image view
+        	RemoteImageView imageView;
+            imageView = new RemoteImageView(m_context);
+            imageView.setImageURL(card.getImageUrl());
+
+            //Save the file once we've loaded that shit
+            view = imageView;
+            imageView.setOnImageReceived(new RemoteImageView.OnImageReceivedListener() {
+				public void onImageReceived(RemoteImageView view) {
+					Bitmap bitmap = ((BitmapDrawable)view.getDrawable()).getBitmap();
+					FileManager.getInstance().saveBitmapAsPng(bitmap, card.getMultiverseId() + ".png");
+				}
+			});
+    	}
         
-        return imageView;
+        //Set some default parameters
+    	view.setLayoutParams(new GridView.LayoutParams(100, 150));
+    	view.setScaleType(ImageView.ScaleType.CENTER_CROP);
+    	view.setPadding(8, 8, 8, 8);
+    	
+    	//Snap!
+        return view;
     }
 }
