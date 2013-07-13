@@ -6,4 +6,5 @@ DraftCommon/bin/
 DraftCommon/gen/
 ReturnToRavnica/bin/
 ReturnToRavnica/gen/
+/.idea/*
 */.settings/*
