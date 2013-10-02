@@ -97,7 +97,7 @@ public class CardDatabase {
 		values.put(CardDatabaseHelper.COLUMN_FLAVOR, flavor);
 		values.put(CardDatabaseHelper.COLUMN_POWER, power);
 		values.put(CardDatabaseHelper.COLUMN_TOUGHNESS, toughness);
-		values.put(CardDatabaseHelper.COLUMN_SET, set.getShortName());
+		values.put(CardDatabaseHelper.COLUMN_SET, set.getCode());
 		values.put(CardDatabaseHelper.COLUMN_RARITY, rarity.getId());
 		values.put(CardDatabaseHelper.COLUMN_NUMBER, number);
 		values.put(CardDatabaseHelper.COLUMN_ARTIST, artist);
@@ -151,7 +151,7 @@ public class CardDatabase {
 	public CardCollection getCardByNameAndSet(String cardName, CardSet cardSet) {
 		
 		//Build our query
-		String args[] = {cardName, cardSet.getShortName()};
+		String args[] = {cardName, cardSet.getCode()};
 		Cursor cursor = m_database.query(CardDatabaseHelper.TABLE_CARD, 
 				allColumns, 
 				CardDatabaseHelper.COLUMN_NAME + " = '?' and " +
@@ -186,7 +186,7 @@ public class CardDatabase {
 		//String args[] = {cardSet.getShortName()};
 		Cursor cursor = m_database.query(CardDatabaseHelper.TABLE_CARD, 
 				allColumns, 
-				CardDatabaseHelper.COLUMN_SET + " = '" + cardSet.getShortName() + "'", 
+				CardDatabaseHelper.COLUMN_SET + " = '" + cardSet.getCode() + "'", 
 				null, 
 				null, 
 				null, 

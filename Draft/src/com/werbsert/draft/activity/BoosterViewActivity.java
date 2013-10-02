@@ -1,6 +1,5 @@
 package com.werbsert.draft.activity;
 
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,7 +13,7 @@ import android.widget.GridView;
 import com.werbsert.draft.BoosterPackGenerator;
 import com.werbsert.draft.R;
 import com.werbsert.draft.model.CardCollection;
-import com.werbsert.draft.view.ImageAdapter;
+import com.werbsert.draft.view.CardCollectionAdapter;
 import com.werbsert.draftcommon.model.CardSet;
 
 public class BoosterViewActivity extends Activity {
@@ -29,8 +28,8 @@ public class BoosterViewActivity extends Activity {
         CardCollection boosterPack = BoosterPackGenerator.getBoosterPack(CardSet.RTR);
         
         GridView gridview = (GridView) findViewById(R.id.gridview);
-        gridview.setAdapter(new ImageAdapter(this, boosterPack));
-        gridview.setOnItemClickListener(new OnItemClickListener(){
+        gridview.setAdapter(new CardCollectionAdapter(this, boosterPack));
+        gridview.setOnItemClickListener(new OnItemClickListener() {
     		public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
 				int imageId = (int) parent.getAdapter().getItemId(position);
 				Intent fullScreenIntent = new Intent(v.getContext(),FullScreenImageActivity.class);

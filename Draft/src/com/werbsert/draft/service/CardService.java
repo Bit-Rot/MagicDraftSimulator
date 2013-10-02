@@ -31,8 +31,39 @@ public class CardService {
 		
 	}
 	
-	public Card getCard(long id) {
-		return null;
+	public Card getCard(CardSet set, long id) {
+		
+		//Check for stupid input from stupid people
+		if (null == set) {
+			String errorMessage = "Argument \"set\" is null";
+			DebugLog.log(errorMessage);
+			throw new InvalidParameterException(errorMessage);
+		}
+		
+		//Map set --> Database URI
+		Uri uri;
+		switch (set) {
+		case M13:
+			uri = DraftContract.TestDraftSet.CARD_ID_URI(id);
+			break;
+		case RTR:
+			uri = DraftContract.ReturnToRavnica.CARD_ID_URI(id);
+			break;
+		default:
+			String errorMessage = "Set \"" + set.getLongName() + "\" has no corresponding card database";
+			DebugLog.log(errorMessage);
+			throw new InvalidParameterException(errorMessage);
+		}
+		
+		//Return the cards in the set
+		List<Card> cardList = getCards(uri, null, null);
+		Card card = null;
+		if (cardList != null && !cardList.isEmpty()) {
+			card = cardList.get(0);
+		}
+		
+		//Return the card with the given ID - hopefully
+		return card;
 	}
 	
 	public List<Card> getCardsBySet(CardSet set) {
@@ -74,27 +105,32 @@ public class CardService {
         
         ContentResolver contentResolver = context.getContentResolver();
         Cursor cursor = contentResolver.query(uri, DraftContract.Card.ALL_COLUMNS, selection, selectionArgs, null);
-        
-        List<Card> cardList = new ArrayList<Card>();
-        if (cursor != null && cursor.getCount() > 0) {
-        	while (cursor.moveToNext()) {
-        		Card card = new Card();
-        		card.setId(cursor.getLong(DraftContract.Card.Column.ID.ordinal()));
-    			card.setName(cursor.getString(DraftContract.Card.Column.NAME.ordinal()));
-    			card.setMana(cursor.getString(DraftContract.Card.Column.MANA.ordinal()));
-    			card.setCmc(cursor.getInt(DraftContract.Card.Column.CMC.ordinal()));
-    			card.setType(cursor.getString(DraftContract.Card.Column.TYPE.ordinal()));
-    			card.setText(cursor.getString(DraftContract.Card.Column.TEXT.ordinal()));
-    			card.setFlavor(cursor.getString(DraftContract.Card.Column.FLAVOR.ordinal()));
-    			card.setPower(cursor.getInt(DraftContract.Card.Column.POWER.ordinal()));
-    			card.setToughness(cursor.getInt(DraftContract.Card.Column.TOUGHNESS.ordinal()));
-    			card.setSet(CardSet.getSet(cursor.getString(DraftContract.Card.Column.SET.ordinal())));
-    			card.setRarity(CardRarity.getRarity(cursor.getString(DraftContract.Card.Column.RARITY.ordinal())));
-    			card.setNumber(cursor.getInt(DraftContract.Card.Column.NUMBER.ordinal()));
-    			card.setArtist(cursor.getString(DraftContract.Card.Column.ARTIST.ordinal()));
-    			card.setMultiverseId(cursor.getInt(DraftContract.Card.Column.MULTIVERSE_ID.ordinal()));
-    			card.setImageUrl(cursor.getString(DraftContract.Card.Column.IMAGE_URL.ordinal()));
-    			cardList.add(card);
+	    List<Card> cardList = new ArrayList<Card>();
+        try {
+		    if (cursor != null && cursor.getCount() > 0) {
+		    	while (cursor.moveToNext()) {
+		    		Card card = new Card();
+		    		card.setId(cursor.getLong(DraftContract.Card.Column.ID.ordinal()));
+					card.setName(cursor.getString(DraftContract.Card.Column.NAME.ordinal()));
+					card.setMana(cursor.getString(DraftContract.Card.Column.MANA.ordinal()));
+					card.setCmc(cursor.getInt(DraftContract.Card.Column.CMC.ordinal()));
+					card.setType(cursor.getString(DraftContract.Card.Column.TYPE.ordinal()));
+					card.setText(cursor.getString(DraftContract.Card.Column.TEXT.ordinal()));
+					card.setFlavor(cursor.getString(DraftContract.Card.Column.FLAVOR.ordinal()));
+					card.setPower(cursor.getInt(DraftContract.Card.Column.POWER.ordinal()));
+					card.setToughness(cursor.getInt(DraftContract.Card.Column.TOUGHNESS.ordinal()));
+					card.setSet(CardSet.getSet(cursor.getString(DraftContract.Card.Column.SET.ordinal())));
+					card.setRarity(CardRarity.getRarity(cursor.getString(DraftContract.Card.Column.RARITY.ordinal())));
+					card.setNumber(cursor.getInt(DraftContract.Card.Column.NUMBER.ordinal()));
+					card.setArtist(cursor.getString(DraftContract.Card.Column.ARTIST.ordinal()));
+					card.setMultiverseId(cursor.getInt(DraftContract.Card.Column.MULTIVERSE_ID.ordinal()));
+					card.setImageUrl(cursor.getString(DraftContract.Card.Column.IMAGE_URL.ordinal()));
+					cardList.add(card);
+		    	}
+		    }
+        } finally {
+        	if (cursor != null) {
+        		cursor.close();
         	}
         }
         

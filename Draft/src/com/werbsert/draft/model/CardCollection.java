@@ -1,49 +1,61 @@
 package com.werbsert.draft.model;
 
-import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 import java.util.Vector;
 
 import com.werbsert.draftcommon.model.Card;
 import com.werbsert.draftcommon.model.CardRarity;
 
-public class CardCollection implements Serializable{
-	
-	private static final long serialVersionUID = -1649469186001740969L;
+/**
+ * Note that we may want to explore the ConcurrentSkipListSet class for the back-end data structure used
+ * by CardCollection.  This would provide an efficient means of synchronizing access to the collection of
+ * cards, moreso than simply synchronizing access to each method of the class.  However, in doing so, we 
+ * must undertake additional work in ensuring order is preserved when displaying collections of cards and
+ * that after deserializing cards between activities.
+ * 
+ * For now we'll just wrap all the methods with 'synchronized' to ensure thread safety and to rule out
+ * any potential race conditions cause by concurrent access to a CardCollection.
+ */
+public class CardCollection {
 
-	public Vector<Card> cards;
+	public List<Card> cards;
 	
 	public CardCollection(){
-		cards = new Vector<Card>();
+		cards = new ArrayList<Card>();
 	}
 	
 	public CardCollection(Collection<Card> values) {
-		cards = new Vector<Card>(values);
+		cards = new ArrayList<Card>(values);
 	}
 
-	public void addCard(Card c){
+	synchronized public void addCard(Card c){
 		cards.add(c);
 	}
 	
-	public Vector<Card> getCards(){
+	synchronized public List<Card> getCards(){
 		return cards;
 	}
 	
-	public Card getCard(int i ){
+	synchronized public Card getCard(int i ){
 		return cards.get(i);
 	}
-	
 
-	public void removeCard(Card cardToRemove){
+	synchronized public Card removeCard(Card cardToRemove){
+		Card removedCard = null;
 		for(Card card: cards){
 			if(card.equals(cardToRemove)){
 				cards.remove(card);
-				return;
+				removedCard = card;
+				break;
 			}
 		}
+		return removedCard;
 	}
-	public Vector<Card> getCardsByRarity(CardRarity rarity){
-		Vector<Card> cardsToReturn = new Vector<Card>();
+	
+	synchronized public List<Card> getCardsByRarity(CardRarity rarity){
+		List<Card> cardsToReturn = new Vector<Card>();
 		for(Card c: cards){
 			if (c.getRarity() == rarity){
 				cardsToReturn.add(c);
@@ -52,13 +64,7 @@ public class CardCollection implements Serializable{
 		return cardsToReturn;
 	}
 
-	public int getSize() {
+	synchronized public int getSize() {
 		return this.cards.size();
 	}
-	
-	
-	public void sortCards(){
-		
-	}
-
 }

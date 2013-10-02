@@ -3,25 +3,18 @@ package com.werbsert.draft.agent;
 import java.util.Random;
 
 import com.werbsert.draft.model.CardCollection;
-
 import com.werbsert.draftcommon.model.Card;
 
 public class ComputerAgent extends DraftAgent {
 
-	public ComputerAgent(){
-		super();
-	}
-	
-	@Override
-	public AgentType getAgentType() {
-		return AgentType.Computer;
+	public ComputerAgent(int numAgents){
+		super(numAgents);
 	}
 
 	@Override
 	public void pickCard(CardCollection boosterPack) {
 	    Random randomGenerator = new Random();
 	    Card card =  boosterPack.getCard(randomGenerator.nextInt(boosterPack.getSize()));
-	    boosterPack.removeCard(card);
-	    this.addCardToPool(card);
+	    pickCardFromPack(card, boosterPack);
 	}
 }

@@ -19,11 +19,11 @@ import com.werbsert.draft.util.CardImageManager;
 import com.werbsert.draft.util.FileManager;
 import com.werbsert.draftcommon.model.Card;
 
-public class ImageAdapter extends BaseAdapter {
+public class CardCollectionAdapter extends BaseAdapter {
     private Context m_context;
     private CardCollection m_cards;
 
-    public ImageAdapter(Context c, CardCollection boosterPack) {
+    public CardCollectionAdapter(Context c, CardCollection boosterPack) {
         this.m_context = c;
         this.m_cards = boosterPack;
     }
@@ -32,7 +32,11 @@ public class ImageAdapter extends BaseAdapter {
         return this.m_cards.getSize();
     }
 
-    public Card getItem(int position) {
+    public CardCollection getCards() {
+		return m_cards;
+	}
+
+	public Card getItem(int position) {
     	return this.m_cards.getCard(position);
     }
 

@@ -13,6 +13,9 @@ public final class DraftContract {
 		public static final String TYPE = "Card";
 		public static final String SCHEME = "content";
 		public static final Uri CARD_URI = Uri.parse(SCHEME + "://" + AUTHORITY + "/" + TYPE);
+		public static final Uri CARD_ID_URI(long id) {
+			return Uri.parse(SCHEME + "://" + AUTHORITY + "/" + TYPE + "/" + id);
+		}
 	}
 	
 	public static final class ReturnToRavnica {
@@ -20,6 +23,9 @@ public final class DraftContract {
 		public static final String TYPE = "Card";
 		public static final String SCHEME = "content";
 		public static final Uri CARD_URI = Uri.parse(SCHEME + "://" + AUTHORITY + "/" + TYPE);
+		public static final Uri CARD_ID_URI(long id) {
+			return Uri.parse(SCHEME + "://" + AUTHORITY + "/" + TYPE + "/" + id);
+		}
 	}
 	
 	public static final class Card {

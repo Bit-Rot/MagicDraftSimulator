@@ -55,7 +55,7 @@ public class CardTable {
 		values.put(DraftContract.Card.COLUMN_FLAVOR, flavor);
 		values.put(DraftContract.Card.COLUMN_POWER, power);
 		values.put(DraftContract.Card.COLUMN_TOUGHNESS, toughness);
-		values.put(DraftContract.Card.COLUMN_SET, set.getShortName());
+		values.put(DraftContract.Card.COLUMN_SET, set.getCode());
 		values.put(DraftContract.Card.COLUMN_RARITY, rarity.getId());
 		values.put(DraftContract.Card.COLUMN_NUMBER, number);
 		values.put(DraftContract.Card.COLUMN_ARTIST, artist);

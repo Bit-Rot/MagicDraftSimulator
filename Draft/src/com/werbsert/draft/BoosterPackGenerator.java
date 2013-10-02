@@ -5,7 +5,6 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Random;
 import java.util.Set;
-import java.util.Vector;
 
 import com.werbsert.draft.model.CardCollection;
 import com.werbsert.draft.service.CardService;
@@ -112,10 +111,10 @@ public class BoosterPackGenerator {
 			//Generate rare/mythic
 			CardCollection boosterPack = new CardCollection();
 			if (isRareMythic) {
-				Vector<Card> rareCards = entireSet.getCardsByRarity(CardRarity.MYTHIC);
+				List<Card> rareCards = entireSet.getCardsByRarity(CardRarity.MYTHIC);
 				boosterPack.addCard(rareCards.get(random.nextInt(rareCards.size())));
 			} else {
-				Vector<Card> rareCards = entireSet.getCardsByRarity(CardRarity.RARE);
+				List<Card> rareCards = entireSet.getCardsByRarity(CardRarity.RARE);
 				boosterPack.addCard(rareCards.get(random.nextInt(rareCards.size())));
 			}
 			
@@ -140,8 +139,11 @@ public class BoosterPackGenerator {
 			
 			//Generate foil
 			if (isFoil) {
-				Vector<Card> possibleFoils = entireSet.getCardsByRarity(foilRarity);
-				boosterPack.addCard(possibleFoils.get(random.nextInt(possibleFoils.size())));
+				List<Card> possibleFoils = entireSet.getCardsByRarity(foilRarity);
+				//We technically shouldn't need to make this check, but it occurs with test data.
+				if (!possibleFoils.isEmpty()) {
+					boosterPack.addCard(possibleFoils.get(random.nextInt(possibleFoils.size())));
+				}
 			}
 			return boosterPack;
 		}

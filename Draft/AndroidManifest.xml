@@ -33,14 +33,23 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/com_werbsert_draft_draftsimulatorapplication_label"
         android:theme="@style/AppTheme"
-        android:allowBackup="true" >
+        android:allowBackup="true" 
+        android:debuggable="true" >
+        <activity
+            android:name="com.werbsert.draft.activity.DraftActivity"
+            android:label="@string/com_werbsert_draft_activity_draftactivity_label" >
+        </activity>
         <activity
             android:name="com.werbsert.draft.activity.BoosterViewActivity"
             android:label="@string/com_werbsert_draft_activity_boosterviewactivity_label" >
         </activity>
         <activity
             android:name="com.werbsert.draft.activity.CardCollectionViewActivity"
-            android:label="@string/com_werbsert_draft_activity_cardcollectionviewactivity_label" >
+            android:label="@string/com_werbsert_draft_activity_cardcollectionviewactivity_label"
+            android:parentActivityName="com.werbsert.draft.activity.DraftActivity" >
+	        <meta-data
+	            android:name="android.support.PARENT_ACTIVITY"
+	            android:value="com.werbsert.draft.activity.DraftActivity" />
         </activity>
         <activity
             android:name="com.werbsert.draft.activity.FullScreenImageActivity"
